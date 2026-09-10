@@ -1,0 +1,112 @@
+RESUME
+
+Name: Priya Nair
+Email: priya.nair@example.com
+Phone: +91-9000000002
+Location: Kochi, Kerala, India
+
+PROFESSIONAL SUMMARY
+
+Software Engineer with 4 years of experience in software development,
+backend application development, database management, API development,
+and software testing. Experienced in developing scalable applications
+and working with cross-functional development teams.
+
+SKILLS
+
+Programming:
+- Java
+- Python
+- JavaScript
+
+Backend Development:
+- Spring Boot
+- REST APIs
+- Microservices
+
+Database:
+- MySQL
+- PostgreSQL
+- SQL
+
+Development Tools:
+- Git
+- GitHub
+- Docker
+- Postman
+
+Software Development:
+- Object-Oriented Programming
+- Data Structures
+- Algorithms
+- Unit Testing
+- Agile Development
+
+EXPERIENCE
+
+Company: TechSolutions Pvt Ltd
+Designation: Software Engineer
+Location: Kochi, Kerala
+Start Date: June 2022
+End Date: Present
+
+Responsibilities:
+- Developed backend applications using Java and Spring Boot.
+- Designed and implemented REST APIs.
+- Developed database queries using SQL.
+- Fixed software bugs and performance issues.
+- Created unit tests for backend applications.
+- Used Git and GitHub for version control.
+- Collaborated with frontend developers and business teams.
+- Participated in Agile sprint planning and code reviews.
+
+Skills Used:
+Java, Spring Boot, SQL, MySQL, REST APIs, Git, Docker, Python
+
+EDUCATION
+
+Degree: B.Tech
+Field: Computer Science and Engineering
+Institution: Kerala Institute of Technology
+Location: Kerala, India
+Start Year: 2018
+End Year: 2022
+Grade: 8.1 CGPA
+
+CERTIFICATIONS
+
+1. Oracle Certified Professional Java Programmer
+Issuing Organization: Oracle
+Issue Date: 2023
+
+2. Docker Certified Associate
+Issuing Organization: Docker
+Issue Date: 2024
+
+PROJECTS
+
+Project: E-Commerce Backend System
+
+- Developed REST APIs for an e-commerce application.
+- Implemented customer, product and order management modules.
+- Designed relational database tables.
+- Implemented authentication and authorization.
+- Tested APIs using Postman.
+
+Project: Employee Management System
+
+- Developed an employee management application.
+- Implemented CRUD operations.
+- Connected the application with MySQL.
+- Created REST APIs using Spring Boot.
+
+TOTAL EXPERIENCE
+
+4 years
+
+PREFERRED ROLES
+
+- Software Engineer
+- Backend Developer
+- Java Developer
+- Python Developer

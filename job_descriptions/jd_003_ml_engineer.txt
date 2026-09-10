@@ -1,0 +1,65 @@
+JOB DESCRIPTION
+
+Job Title: Machine Learning Engineer
+Company: AI Innovations Pvt Ltd
+Location: Pune, India
+Employment Type: Full-time
+
+JOB SUMMARY
+
+We are looking for a Machine Learning Engineer to develop, deploy, and
+maintain machine learning and artificial intelligence solutions. The
+candidate will work on machine learning pipelines, model deployment,
+and production AI systems.
+
+REQUIRED EXPERIENCE
+
+2–5 years of experience in machine learning, artificial intelligence,
+data science, or a related field.
+
+REQUIRED SKILLS
+
+- Python
+- SQL
+- Machine Learning
+- Scikit-learn
+- Pandas
+- NumPy
+- Feature Engineering
+- Model Evaluation
+- PyTorch or TensorFlow
+- Git
+
+PREFERRED SKILLS
+
+- Docker
+- Kubernetes
+- FastAPI
+- AWS
+- MLOps
+- MLflow
+- Deep Learning
+- REST APIs
+
+EDUCATION
+
+- Bachelor's or Master's degree in Computer Science, Artificial
+  Intelligence, Machine Learning, Data Science, Mathematics, or a
+  related technical field.
+
+RESPONSIBILITIES
+
+- Develop and train machine learning models.
+- Perform data preprocessing and feature engineering.
+- Evaluate machine learning model performance.
+- Optimize machine learning models.
+- Build production-ready ML pipelines.
+- Deploy machine learning models through APIs.
+- Containerize applications using Docker.
+- Monitor deployed models.
+- Collaborate with data scientists and software engineers.
+
+CERTIFICATIONS
+
+Machine learning, deep learning, cloud computing, or MLOps
+certifications are preferred.

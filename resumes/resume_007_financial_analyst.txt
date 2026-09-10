@@ -1,0 +1,102 @@
+RESUME
+
+Name: Vishnu Raj
+Email: vishnu.raj@example.com
+Phone: +91-9000000007
+Location: Chennai, Tamil Nadu, India
+
+PROFESSIONAL SUMMARY
+
+Financial Analyst with 2 years of experience in financial analysis,
+budgeting, forecasting, financial reporting, variance analysis, and
+business performance analysis.
+
+SKILLS
+
+Finance:
+- Financial Analysis
+- Financial Reporting
+- Budgeting
+- Forecasting
+- Variance Analysis
+- Financial Modeling
+- Revenue Analysis
+- Cost Analysis
+
+Technical:
+- Microsoft Excel
+- Advanced Excel
+- SQL
+- Power BI
+- Python
+
+Excel:
+- Pivot Tables
+- VLOOKUP
+- XLOOKUP
+- INDEX MATCH
+- Power Query
+- Data Analysis
+
+EXPERIENCE
+
+Company: FinServe Analytics
+Designation: Financial Analyst
+Location: Chennai, Tamil Nadu
+Start Date: July 2024
+End Date: Present
+
+Responsibilities:
+- Prepared monthly financial reports.
+- Analyzed revenue and operating expenses.
+- Performed budget versus actual variance analysis.
+- Assisted in financial forecasting.
+- Developed Excel-based financial models.
+- Created Power BI dashboards for management reporting.
+- Analyzed financial performance across business units.
+- Prepared reports for senior management.
+- Automated recurring financial reports.
+
+Skills Used:
+Excel, Power BI, SQL, Financial Modeling, Budgeting,
+Forecasting, Financial Analysis
+
+EDUCATION
+
+Degree: M.Com
+Field: Finance
+Institution: South India University
+Location: Chennai, India
+Start Year: 2022
+End Year: 2024
+Grade: 8.6 CGPA
+
+CERTIFICATIONS
+
+1. Financial Modeling and Valuation Analyst
+Issuing Organization: Corporate Finance Institute
+Issue Date: 2024
+
+2. Microsoft Excel Expert
+Issuing Organization: Microsoft
+Issue Date: 2023
+
+PROJECTS
+
+Project: Financial Performance Dashboard
+
+- Analyzed revenue, expenses and profit data.
+- Created financial KPIs.
+- Developed an interactive Power BI dashboard.
+- Identified monthly and yearly financial trends.
+
+TOTAL EXPERIENCE
+
+2 years
+
+PREFERRED ROLES
+
+- Financial Analyst
+- Business Analyst
+- FP&A Analyst
+- Finance Data Analyst

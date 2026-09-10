@@ -1,0 +1,60 @@
+JOB DESCRIPTION
+
+Job Title: Data Scientist
+Company: InsightAI Technologies
+Location: Bangalore, India
+Employment Type: Full-time
+
+JOB SUMMARY
+
+We are looking for a Data Scientist to analyze complex datasets and
+develop machine learning solutions that support business decision-making.
+The candidate will work with data engineering, product, and business
+teams to build predictive models and analytical solutions.
+
+REQUIRED EXPERIENCE
+
+2–5 years of experience in data science, machine learning, or a related
+analytical role.
+
+REQUIRED SKILLS
+
+- Python
+- SQL
+- Pandas
+- NumPy
+- Scikit-learn
+- Machine Learning
+- Statistics
+- Exploratory Data Analysis
+- Feature Engineering
+
+PREFERRED SKILLS
+
+- Power BI
+- Tableau
+- XGBoost
+- TensorFlow
+- AWS
+- Docker
+
+EDUCATION
+
+- Bachelor's or Master's degree in Computer Science, Statistics,
+  Mathematics, Economics, Data Science, or a related field.
+
+RESPONSIBILITIES
+
+- Analyze large datasets to identify business trends.
+- Perform data cleaning and preprocessing.
+- Develop and evaluate machine learning models.
+- Perform feature engineering.
+- Conduct exploratory data analysis.
+- Communicate analytical findings to stakeholders.
+- Create data visualizations and reports.
+- Collaborate with data engineers and business teams.
+
+CERTIFICATIONS
+
+Data science, machine learning, cloud computing, or analytics
+certifications are preferred but not mandatory.

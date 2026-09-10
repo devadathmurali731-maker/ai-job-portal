@@ -1,0 +1,129 @@
+RESUME
+
+Name: Aditya Sharma
+Email: aditya.sharma@example.com
+Phone: +91-9000000004
+Location: Hyderabad, Telangana, India
+
+PROFESSIONAL SUMMARY
+
+Machine Learning Engineer with 3 years of experience in developing,
+training, evaluating, and deploying machine learning models. Experienced
+in Python, deep learning, model deployment, data preprocessing, and
+building production-ready machine learning pipelines.
+
+SKILLS
+
+Programming:
+- Python
+- SQL
+
+Machine Learning:
+- Supervised Learning
+- Unsupervised Learning
+- Feature Engineering
+- Model Evaluation
+- Hyperparameter Tuning
+- Scikit-learn
+
+Deep Learning:
+- Neural Networks
+- TensorFlow
+- PyTorch
+- CNN
+- Transfer Learning
+
+Data Processing:
+- Pandas
+- NumPy
+- Data Preprocessing
+- Exploratory Data Analysis
+
+Deployment:
+- Docker
+- FastAPI
+- REST APIs
+- ML Model Deployment
+
+Cloud:
+- AWS
+- Amazon S3
+- Amazon EC2
+
+Development Tools:
+- Git
+- GitHub
+- Jupyter Notebook
+
+EXPERIENCE
+
+Company: AI Technologies Pvt Ltd
+Designation: Machine Learning Engineer
+Location: Hyderabad, Telangana
+Start Date: March 2023
+End Date: Present
+
+Responsibilities:
+- Developed and trained machine learning models for business applications.
+- Performed data preprocessing and feature engineering.
+- Evaluated machine learning models using appropriate performance metrics.
+- Performed hyperparameter optimization using GridSearchCV and RandomizedSearchCV.
+- Developed deep learning models using TensorFlow and PyTorch.
+- Built REST APIs for machine learning model serving.
+- Containerized ML applications using Docker.
+- Deployed machine learning solutions on AWS.
+- Monitored model performance and improved model accuracy.
+- Collaborated with data scientists and software engineers.
+
+Skills Used:
+Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy,
+Docker, FastAPI, AWS, Git
+
+EDUCATION
+
+Degree: M.Tech
+Field: Artificial Intelligence and Machine Learning
+Institution: National Institute of Technology
+Location: Hyderabad, India
+Start Year: 2020
+End Year: 2022
+Grade: 8.7 CGPA
+
+CERTIFICATIONS
+
+1. AWS Certified Machine Learning – Specialty
+Issuing Organization: Amazon Web Services
+Issue Date: 2024
+
+2. Deep Learning Specialization
+Issuing Organization: DeepLearning.AI
+Issue Date: 2023
+
+PROJECTS
+
+Project: Credit Card Fraud Detection System
+
+- Developed a machine learning system for detecting fraudulent transactions.
+- Handled highly imbalanced transaction data.
+- Applied feature engineering and data preprocessing.
+- Compared Logistic Regression, Random Forest and XGBoost.
+- Evaluated models using precision, recall, F1-score and ROC-AUC.
+- Selected the model based on business-oriented evaluation metrics.
+
+Project: Image Classification System
+
+- Developed a CNN-based image classification model.
+- Used transfer learning to improve model performance.
+- Trained and evaluated the deep learning model using PyTorch.
+- Created an API for model prediction.
+
+TOTAL EXPERIENCE
+
+3 years
+
+PREFERRED ROLES
+
+- Machine Learning Engineer
+- AI Engineer
+- Data Scientist
+- Deep Learning Engineer

@@ -1,0 +1,59 @@
+JOB DESCRIPTION
+
+Job Title: Software Engineer
+Company: TechCore Solutions
+Location: Hyderabad, India
+Employment Type: Full-time
+
+JOB SUMMARY
+
+We are seeking a Software Engineer to design, develop, test, and maintain
+scalable software applications. The candidate will work closely with
+software engineers, product managers, and other technical teams.
+
+REQUIRED EXPERIENCE
+
+2–5 years of professional software development experience.
+
+REQUIRED SKILLS
+
+- Java
+- Python
+- Object-Oriented Programming
+- Data Structures
+- Algorithms
+- SQL
+- REST APIs
+- Spring Boot
+- Git
+
+PREFERRED SKILLS
+
+- Docker
+- Kubernetes
+- Microservices
+- AWS
+- PostgreSQL
+- Unit Testing
+- CI/CD
+
+EDUCATION
+
+- Bachelor's or Master's degree in Computer Science, Information
+  Technology, Software Engineering, or a related field.
+
+RESPONSIBILITIES
+
+- Design and develop software applications.
+- Write clean and maintainable code.
+- Develop REST APIs.
+- Design and optimize database queries.
+- Perform unit testing.
+- Debug and resolve software issues.
+- Participate in code reviews.
+- Collaborate with cross-functional technical teams.
+- Follow Agile software development practices.
+
+CERTIFICATIONS
+
+Cloud computing or software development certifications are preferred.

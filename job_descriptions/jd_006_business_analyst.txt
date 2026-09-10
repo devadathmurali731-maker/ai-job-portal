@@ -1,0 +1,63 @@
+JOB DESCRIPTION
+
+Job Title: Business Analyst
+Company: Business Solutions India
+Location: Bangalore, India
+Employment Type: Full-time
+
+JOB SUMMARY
+
+We are looking for a Business Analyst to gather business requirements,
+analyze business processes, work with stakeholders, and support
+data-driven business decisions.
+
+REQUIRED EXPERIENCE
+
+2–5 years of experience in business analysis, data analysis, consulting,
+or a related field.
+
+REQUIRED SKILLS
+
+- Requirements Gathering
+- Business Process Analysis
+- SQL
+- Microsoft Excel
+- Power BI
+- Stakeholder Management
+- Communication
+- Problem Solving
+- Business Documentation
+
+PREFERRED SKILLS
+
+- Agile
+- Scrum
+- Jira
+- Confluence
+- Data Visualization
+- Process Improvement
+- User Stories
+- Gap Analysis
+
+EDUCATION
+
+- Bachelor's or Master's degree in Business Administration, Economics,
+  Commerce, Statistics, Computer Science, or a related field.
+
+RESPONSIBILITIES
+
+- Gather requirements from business stakeholders.
+- Analyze existing business processes.
+- Identify process improvement opportunities.
+- Prepare business requirement documents.
+- Create user stories and acceptance criteria.
+- Analyze business data using SQL and Excel.
+- Develop business dashboards.
+- Communicate requirements to technical teams.
+- Participate in Agile meetings.
+- Support business decision-making.
+
+CERTIFICATIONS
+
+Business analysis, Agile, Scrum, or analytics certifications
+are preferred.

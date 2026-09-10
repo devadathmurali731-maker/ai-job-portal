@@ -1,0 +1,113 @@
+RESUME
+
+Name: Rahul Menon
+Email: rahul.menon@example.com
+Phone: +91-9000000003
+Location: Thiruvananthapuram, Kerala, India
+
+PROFESSIONAL SUMMARY
+
+Data Analyst with 2 years of experience in data analysis, business
+reporting, dashboard development, SQL querying, and statistical analysis.
+Experienced in transforming raw business data into actionable insights
+for decision-making.
+
+SKILLS
+
+Programming:
+- Python
+- SQL
+
+Data Analysis:
+- Excel
+- Pandas
+- NumPy
+- Statistical Analysis
+- Data Cleaning
+
+Data Visualization:
+- Power BI
+- Tableau
+- Matplotlib
+
+Database:
+- MySQL
+- PostgreSQL
+
+Other:
+- Data Modeling
+- Business Reporting
+- Dashboard Development
+- Microsoft Excel
+- Pivot Tables
+- VLOOKUP
+- Power Query
+
+EXPERIENCE
+
+Company: Insight Analytics Pvt Ltd
+Designation: Data Analyst
+Location: Thiruvananthapuram, Kerala
+Start Date: July 2024
+End Date: Present
+
+Responsibilities:
+- Collected and analyzed business datasets.
+- Cleaned and transformed raw data using Excel, SQL and Python.
+- Created interactive Power BI dashboards.
+- Developed SQL queries to extract business information.
+- Prepared monthly and quarterly business reports.
+- Identified trends and patterns in customer and sales data.
+- Presented analytical findings to business stakeholders.
+- Automated repetitive reporting tasks using Python and Excel.
+
+Skills Used:
+SQL, Excel, Power BI, Python, Pandas, NumPy, Power Query, Tableau
+
+EDUCATION
+
+Degree: B.Com
+Field: Finance and Accounting
+Institution: Kerala State University
+Location: Thiruvananthapuram, India
+Start Year: 2021
+End Year: 2024
+Grade: 8.0 CGPA
+
+CERTIFICATIONS
+
+1. Microsoft Power BI Data Analyst
+Issuing Organization: Microsoft
+Issue Date: 2024
+
+2. SQL for Data Analysis
+Issuing Organization: DataCamp
+Issue Date: 2024
+
+PROJECTS
+
+Project: Retail Sales Analysis Dashboard
+
+- Analyzed three years of retail transaction data.
+- Cleaned and transformed raw transaction data.
+- Created Power BI dashboards for sales performance.
+- Analyzed revenue, customer and product trends.
+- Created KPIs for business performance monitoring.
+
+Project: Customer Segmentation Analysis
+
+- Used Python to analyze customer purchasing behavior.
+- Performed exploratory data analysis.
+- Created customer segments based on purchasing patterns.
+- Presented insights using visualizations.
+
+TOTAL EXPERIENCE
+
+2 years
+
+PREFERRED ROLES
+
+- Data Analyst
+- Business Analyst
+- BI Analyst
+- Reporting Analyst

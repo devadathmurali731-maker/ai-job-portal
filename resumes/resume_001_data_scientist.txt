@@ -1,0 +1,102 @@
+RESUME
+
+Name: Arun Kumar
+Email: arun.kumar@example.com
+Phone: +91-9000000001
+Location: Bangalore, Karnataka, India
+
+PROFESSIONAL SUMMARY
+
+Data Scientist with 3 years of experience in data analysis, machine learning,
+predictive modeling, and business intelligence. Experienced in developing
+machine learning models, performing exploratory data analysis, and creating
+data-driven business solutions.
+
+SKILLS
+
+Programming:
+- Python
+- SQL
+
+Data Analysis:
+- Pandas
+- NumPy
+- Exploratory Data Analysis
+- Statistical Analysis
+
+Machine Learning:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- XGBoost
+- Scikit-learn
+
+Data Visualization:
+- Power BI
+- Matplotlib
+- Seaborn
+
+EXPERIENCE
+
+Company: ABC Analytics Pvt Ltd
+Designation: Data Scientist
+Location: Bangalore, Karnataka
+Start Date: January 2023
+End Date: Present
+
+Responsibilities:
+- Developed machine learning models for business prediction problems.
+- Performed exploratory data analysis on large datasets.
+- Cleaned and preprocessed structured datasets.
+- Built dashboards using Power BI.
+- Performed feature engineering and model evaluation.
+- Collaborated with business teams to identify analytical requirements.
+
+Skills Used:
+Python, SQL, Pandas, NumPy, Scikit-learn, Power BI, Machine Learning
+
+EDUCATION
+
+Degree: M.Sc.
+Field: Data Science
+Institution: ABC University
+Location: Bangalore, India
+Start Year: 2020
+End Year: 2022
+Grade: 8.4 CGPA
+
+CERTIFICATIONS
+
+1. IBM Data Science Professional Certificate
+Issuing Organization: IBM
+Issue Date: 2023
+
+2. Microsoft Power BI Data Analyst
+Issuing Organization: Microsoft
+Issue Date: 2024
+
+PROJECTS
+
+Project: Customer Churn Prediction
+
+- Developed a machine learning model to predict customer churn.
+- Performed data preprocessing and feature engineering.
+- Compared multiple classification algorithms.
+- Evaluated models using precision, recall, F1-score and ROC-AUC.
+
+Project: Sales Analytics Dashboard
+
+- Created an interactive Power BI dashboard.
+- Analyzed revenue, customer trends and product performance.
+- Presented business insights to stakeholders.
+
+TOTAL EXPERIENCE
+
+3 years
+
+PREFERRED ROLES
+
+- Data Scientist
+- Machine Learning Engineer
+- Data Analyst

@@ -1,0 +1,117 @@
+RESUME
+
+Name: Neha Thomas
+Email: neha.thomas@example.com
+Phone: +91-9000000005
+Location: Kochi, Kerala, India
+
+PROFESSIONAL SUMMARY
+
+Business Analyst with 4 years of experience in business analysis,
+requirements gathering, data analysis, process improvement, stakeholder
+management, and business intelligence. Experienced in translating
+business requirements into analytical and technical solutions.
+
+SKILLS
+
+Business Analysis:
+- Requirements Gathering
+- Business Process Analysis
+- Stakeholder Management
+- Business Documentation
+- Gap Analysis
+- Process Improvement
+- Functional Requirements
+- User Stories
+
+Data Analysis:
+- SQL
+- Microsoft Excel
+- Power BI
+- Data Visualization
+- Statistical Analysis
+
+Project Management:
+- Agile
+- Scrum
+- Jira
+- Confluence
+
+Other:
+- Microsoft PowerPoint
+- Business Reporting
+- Presentation
+- Communication
+- Problem Solving
+
+EXPERIENCE
+
+Company: Business Solutions India Pvt Ltd
+Designation: Business Analyst
+Location: Kochi, Kerala
+Start Date: January 2022
+End Date: Present
+
+Responsibilities:
+- Gathered business requirements from stakeholders.
+- Analyzed existing business processes and identified improvement areas.
+- Created business requirement documents and functional specifications.
+- Developed user stories and acceptance criteria.
+- Analyzed business data using SQL and Excel.
+- Created Power BI dashboards for management reporting.
+- Worked with development teams to communicate business requirements.
+- Participated in Agile sprint planning and review meetings.
+- Coordinated with stakeholders throughout the project lifecycle.
+- Identified opportunities for process automation and improvement.
+
+Skills Used:
+SQL, Excel, Power BI, Jira, Confluence, Agile, Scrum,
+Requirements Analysis, Stakeholder Management
+
+EDUCATION
+
+Degree: MBA
+Field: Business Analytics
+Institution: Kerala Business School
+Location: Kochi, India
+Start Year: 2019
+End Year: 2021
+Grade: 8.5 CGPA
+
+CERTIFICATIONS
+
+1. Certified Business Analysis Professional
+Issuing Organization: IIBA
+Issue Date: 2023
+
+2. Microsoft Power BI Data Analyst
+Issuing Organization: Microsoft
+Issue Date: 2022
+
+PROJECTS
+
+Project: Sales Performance Analytics
+
+- Gathered reporting requirements from sales management.
+- Analyzed sales performance using SQL and Excel.
+- Created an interactive Power BI dashboard.
+- Identified high-performing products and regions.
+- Provided recommendations for improving sales performance.
+
+Project: Business Process Automation
+
+- Analyzed a manual reporting process.
+- Identified repetitive activities and bottlenecks.
+- Proposed an automated reporting workflow.
+- Reduced manual reporting effort through process improvement.
+
+TOTAL EXPERIENCE
+
+4 years
+
+PREFERRED ROLES
+
+- Business Analyst
+- Business Intelligence Analyst
+- Data Analyst
+- Product Analyst

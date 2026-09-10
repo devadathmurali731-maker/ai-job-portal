@@ -1,0 +1,60 @@
+JOB DESCRIPTION
+
+Job Title: Data Analyst
+Company: InsightSpark Analytics
+Location: Kochi, Kerala, India
+Employment Type: Full-time
+
+JOB SUMMARY
+
+We are looking for a Data Analyst to analyze business data, create
+reports and dashboards, identify trends, and provide actionable
+insights to business stakeholders.
+
+REQUIRED EXPERIENCE
+
+1–3 years of experience in data analysis, business intelligence,
+reporting, or a related field.
+
+REQUIRED SKILLS
+
+- SQL
+- Microsoft Excel
+- Power BI
+- Data Analysis
+- Data Cleaning
+- Data Visualization
+- Statistical Analysis
+- Pivot Tables
+- Power Query
+
+PREFERRED SKILLS
+
+- Python
+- Pandas
+- Tableau
+- PostgreSQL
+- Business Intelligence
+- Data Modeling
+
+EDUCATION
+
+- Bachelor's degree in Economics, Statistics, Mathematics, Computer
+  Science, Business Administration, Commerce, or a related field.
+
+RESPONSIBILITIES
+
+- Analyze business datasets.
+- Clean and transform raw data.
+- Write SQL queries to extract data.
+- Create Power BI dashboards.
+- Prepare regular business reports.
+- Identify trends and patterns.
+- Develop key performance indicators.
+- Communicate insights to stakeholders.
+- Support data-driven business decisions.
+
+CERTIFICATIONS
+
+Power BI, Excel, SQL, analytics, or business intelligence
+certifications are preferred.

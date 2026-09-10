@@ -1,0 +1,109 @@
+RESUME
+
+Name: Karthik Suresh
+Email: karthik.suresh@example.com
+Phone: +91-9000000010
+Location: Pune, Maharashtra, India
+
+PROFESSIONAL SUMMARY
+
+Project Manager with 6 years of experience managing technology projects,
+project planning, stakeholder management, risk management, Agile
+methodologies, team coordination, and project delivery.
+
+SKILLS
+
+Project Management:
+- Project Planning
+- Project Scheduling
+- Risk Management
+- Resource Management
+- Budget Management
+- Stakeholder Management
+- Project Documentation
+- Team Management
+
+Methodologies:
+- Agile
+- Scrum
+- Waterfall
+- Kanban
+
+Tools:
+- Jira
+- Confluence
+- Microsoft Project
+- Microsoft Excel
+- Microsoft PowerPoint
+
+Soft Skills:
+- Leadership
+- Communication
+- Negotiation
+- Decision Making
+- Problem Solving
+
+EXPERIENCE
+
+Company: Enterprise Technology Solutions
+Designation: Project Manager
+Location: Pune, Maharashtra
+Start Date: January 2020
+End Date: Present
+
+Responsibilities:
+- Managed multiple technology projects from initiation to completion.
+- Created project plans and schedules.
+- Coordinated cross-functional teams.
+- Managed project risks and dependencies.
+- Conducted stakeholder meetings.
+- Monitored project progress and delivery timelines.
+- Prepared project status reports.
+- Managed project documentation.
+- Facilitated Agile ceremonies.
+- Coordinated with clients and technical teams.
+
+Skills Used:
+Jira, Confluence, Agile, Scrum, Microsoft Project, Excel,
+Project Planning, Risk Management, Stakeholder Management
+
+EDUCATION
+
+Degree: MBA
+Field: Project Management
+Institution: Pune Management Institute
+Location: Pune, India
+Start Year: 2016
+End Year: 2018
+Grade: 8.4 CGPA
+
+CERTIFICATIONS
+
+1. Project Management Professional
+Issuing Organization: Project Management Institute
+Issue Date: 2022
+
+2. Professional Scrum Master I
+Issuing Organization: Scrum.org
+Issue Date: 2021
+
+PROJECTS
+
+Project: Enterprise Application Implementation
+
+- Managed implementation of an enterprise software application.
+- Coordinated technical and business teams.
+- Managed project timelines and risks.
+- Conducted stakeholder meetings.
+- Monitored project milestones and deliverables.
+
+TOTAL EXPERIENCE
+
+6 years
+
+PREFERRED ROLES
+
+- Project Manager
+- Program Manager
+- Technical Project Manager
+- Delivery Manager
