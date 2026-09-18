@@ -1,0 +1,41 @@
+{
+    "summary": [
+        "Machine Learning Engineer with 2 years of experience developing machine learning models and",
+        "data pipelines. Experienced in Python, Scikit-learn and SQL."
+    ],
+    "skills": [
+        "- Python",
+        "- Machine Learning",
+        "- Scikit-learn",
+        "- Pandas",
+        "- NumPy",
+        "- SQL",
+        "- Git",
+        "- Jupyter Notebook"
+    ],
+    "work_experience": [
+        "DataTech Solutions",
+        "Junior Machine Learning Engineer",
+        "2024 - Present",
+        "- Built classification and regression models using Scikit-learn.",
+        "- Performed data cleaning and feature engineering.",
+        "- Evaluated models using precision, recall and F1-score.",
+        "- Created reusable Python data-processing pipelines.",
+        "- Worked with SQL databases to extract analytical data."
+    ],
+    "projects": [
+        "Customer Churn Prediction",
+        "- Developed a machine learning model to predict customer churn.",
+        "- Performed exploratory data analysis and feature selection.",
+        "- Compared Logistic Regression, Random Forest and XGBoost models."
+    ],
+    "education": [
+        "B.Tech in Computer Science and Engineering",
+        "Kerala Technical University",
+        "2024"
+    ],
+    "certifications": [
+        "Machine Learning Specialization",
+        "Python for Data Science"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "role": "Machine Learning Engineer",
+    "skills": {
+        "required": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Git"
+        ],
+        "preferred": [
+            "Deep Learning",
+            "AWS",
+            "Docker",
+            "Machine Learning"
+        ]
+    },
+    "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "Bachelor's degree",
+            "Master's degree"
+        ],
+        "preferred": [],
+        "fields_of_study": [
+            "Computer Science",
+            "Data Science",
+            "Mathematics"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: Machine Learning Engineer\nCompany: AI Innovations Pvt Ltd\nLocation: Pune, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are looking for a Machine Learning Engineer to develop, deploy, and\nmaintain machine learning and artificial intelligence solutions. The\ncandidate will work on machine learning pipelines, model deployment,\nand production AI systems.\nREQUIRED EXPERIENCE\n2-5 years of experience in machine learning, artificial intelligence,\ndata science, or a related field.\nREQUIRED SKILLS\n- Python\n- SQL\n- Machine Learning\n- Scikit-learn\n- Pandas\n- NumPy\n- Feature Engineering\n- Model Evaluation\n- PyTorch or TensorFlow\n- Git\nPREFERRED SKILLS\n- Docker\n- Kubernetes\n- FastAPI\n- AWS\n- MLOps\n- MLflow\n- Deep Learning\n- REST APIs\nEDUCATION\n- Bachelor's or Master's degree in Computer Science, Artificial\nIntelligence, Machine Learning, Data Science, Mathematics, or a\nrelated technical field.\nRESPONSIBILITIES\n- Develop and train machine learning models.\n- Perform data preprocessing and feature engineering.\n- Evaluate machine learning model performance.\n- Optimize machine learning models.\n- Build production-ready ML pipelines.\n- Deploy machine learning models through APIs.\n- Containerize applications using Docker.\n- Monitor deployed models.\n- Collaborate with data scientists and software engineers.\nCERTIFICATIONS\nMachine learning, deep learning, cloud computing, or MLOps\ncertifications are preferred."
+}

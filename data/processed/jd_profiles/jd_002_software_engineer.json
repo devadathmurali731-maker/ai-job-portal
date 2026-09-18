@@ -1,0 +1,33 @@
+{
+    "role": "Software Engineer",
+    "skills": {
+        "required": [
+            "Python",
+            "SQL",
+            "Git"
+        ],
+        "preferred": [
+            "SQL",
+            "PostgreSQL",
+            "AWS",
+            "Docker"
+        ]
+    },
+    "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "Bachelor's degree",
+            "Master's degree"
+        ],
+        "preferred": [],
+        "fields_of_study": [
+            "Computer Science",
+            "Engineering"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: Software Engineer\nCompany: TechCore Solutions\nLocation: Hyderabad, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are seeking a Software Engineer to design, develop, test, and maintain\nscalable software applications. The candidate will work closely with\nsoftware engineers, product managers, and other technical teams.\nREQUIRED EXPERIENCE\n2-5 years of professional software development experience.\nREQUIRED SKILLS\n- Java\n- Python\n- Object-Oriented Programming\n- Data Structures\n- Algorithms\n- SQL\n- REST APIs\n- Spring Boot\n- Git\nPREFERRED SKILLS\n- Docker\n- Kubernetes\n- Microservices\n- AWS\n- PostgreSQL\n- Unit Testing\n- CI/CD\nEDUCATION\n- Bachelor's or Master's degree in Computer Science, Information\nTechnology, Software Engineering, or a related field.\nRESPONSIBILITIES\n- Design and develop software applications.\n- Write clean and maintainable code.\n- Develop REST APIs.\n- Design and optimize database queries.\n- Perform unit testing.\n- Debug and resolve software issues.\n- Participate in code reviews.\n- Collaborate with cross-functional technical teams.\n- Follow Agile software development practices.\nCERTIFICATIONS\nCloud computing or software development certifications are preferred."
+}

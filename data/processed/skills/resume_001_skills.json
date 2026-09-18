@@ -1,0 +1,45 @@
+{
+    "resume_id": "resume_001",
+    "skills": [
+        {
+            "skill": "Python",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Java",
+            "confidence": 0.99
+        },
+        {
+            "skill": "SQL",
+            "confidence": 0.99
+        },
+        {
+            "skill": "MySQL",
+            "confidence": 0.99
+        },
+        {
+            "skill": "PostgreSQL",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Spring Boot",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Docker",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Git",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Agile",
+            "confidence": 0.99
+        },
+        {
+            "skill": "REST API",
+            "confidence": 0.95
+        }
+    ]
+}

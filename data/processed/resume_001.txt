@@ -1,0 +1,30 @@
+PRIYA NAIR
+Software Engineer
+Bangalore, India
+Email: priya.nair@example.com
+Phone: +91-90000-11111
+PROFESSIONAL SUMMARY
+Software Engineer with 4 years of experience building backend applications and REST APIs using Java, Python, SQL and Spring Boot.
+SKILLS
+Java
+Python
+SQL
+Spring Boot
+REST APIs
+Git
+Docker
+PROFESSIONAL EXPERIENCE
+ABC Technologies
+Software Engineer
+2022 - Present
+- Developed REST APIs using Spring Boot.
+- Worked with MySQL and PostgreSQL databases.
+- Used Git and Docker in application development.
+- Participated in Agile software development.
+EDUCATION
+B.Tech in Computer Science and Engineering
+XYZ University
+2022
+CERTIFICATIONS
+Oracle Java Certification
+Docker Certified Associate

@@ -1,0 +1,267 @@
+{
+    "technical": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "TypeScript",
+            "C",
+            "C++",
+            "C#",
+            "R",
+            "Go",
+            "Rust",
+            "PHP",
+            "Ruby",
+            "Kotlin",
+            "Swift",
+            "Scala"
+        ],
+        "data_science": [
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing",
+            "Computer Vision",
+            "Artificial Intelligence",
+            "Statistics",
+            "Data Science",
+            "Data Analysis",
+            "Predictive Modeling",
+            "Feature Engineering",
+            "Time Series Analysis",
+            "Reinforcement Learning"
+        ],
+        "data_tools": [
+            "NumPy",
+            "Pandas",
+            "SciPy",
+            "Scikit-learn",
+            "TensorFlow",
+            "PyTorch",
+            "Keras",
+            "XGBoost",
+            "LightGBM",
+            "OpenCV",
+            "NLTK",
+            "spaCy",
+            "Hugging Face"
+        ],
+        "databases": [
+            "SQL",
+            "MySQL",
+            "PostgreSQL",
+            "Oracle",
+            "SQL Server",
+            "MongoDB",
+            "Redis",
+            "SQLite",
+            "Cassandra",
+            "DynamoDB"
+        ],
+        "business_intelligence": [
+            "Power BI",
+            "Tableau",
+            "Looker",
+            "Qlik Sense",
+            "Excel",
+            "DAX",
+            "Power Query"
+        ],
+        "web_development": [
+            "HTML",
+            "CSS",
+            "React",
+            "Angular",
+            "Vue.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "Flask",
+            "FastAPI",
+            "Spring Boot",
+            "REST API",
+            "GraphQL"
+        ],
+        "cloud_and_devops": [
+            "AWS",
+            "Microsoft Azure",
+            "Google Cloud",
+            "Docker",
+            "Kubernetes",
+            "Git",
+            "GitHub",
+            "GitLab",
+            "Jenkins",
+            "CI/CD",
+            "Terraform",
+            "Linux"
+        ],
+        "software_engineering": [
+            "Object-Oriented Programming",
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Microservices",
+            "Agile",
+            "Scrum",
+            "Unit Testing",
+            "API Development",
+            "Version Control"
+        ]
+    },
+    "business": {
+        "business_analysis": [
+            "Business Analysis",
+            "Requirements Gathering",
+            "Requirements Analysis",
+            "Business Process Modeling",
+            "Process Improvement",
+            "Stakeholder Management",
+            "Business Requirements",
+            "Functional Requirements",
+            "Gap Analysis"
+        ],
+        "finance": [
+            "Financial Analysis",
+            "Financial Modeling",
+            "Budgeting",
+            "Forecasting",
+            "Risk Analysis",
+            "Investment Analysis",
+            "Accounting",
+            "Financial Reporting"
+        ],
+        "marketing": [
+            "Digital Marketing",
+            "Market Research",
+            "SEO",
+            "SEM",
+            "Content Marketing",
+            "Social Media Marketing",
+            "Brand Management",
+            "Email Marketing",
+            "Marketing Analytics"
+        ],
+        "management": [
+            "Project Management",
+            "Product Management",
+            "Operations Management",
+            "Strategic Planning",
+            "Team Management",
+            "Leadership",
+            "Change Management",
+            "Resource Management"
+        ],
+        "human_resources": [
+            "Recruitment",
+            "Talent Acquisition",
+            "Performance Management",
+            "Employee Relations",
+            "HR Analytics",
+            "Payroll",
+            "Training and Development"
+        ]
+    },
+    "creative": {
+        "design": [
+            "Graphic Design",
+            "UI Design",
+            "UX Design",
+            "User Experience",
+            "User Interface Design",
+            "Figma",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe XD",
+            "Canva"
+        ],
+        "content": [
+            "Content Writing",
+            "Copywriting",
+            "Technical Writing",
+            "Creative Writing",
+            "Blog Writing",
+            "Editing",
+            "Proofreading"
+        ],
+        "media": [
+            "Video Editing",
+            "Photography",
+            "Videography",
+            "Animation",
+            "Motion Graphics",
+            "Adobe Premiere Pro",
+            "Adobe After Effects"
+        ]
+    },
+    "synonyms": {
+        "python programming": "Python",
+        "py": "Python",
+        "python3": "Python",
+        "js": "JavaScript",
+        "javascript programming": "JavaScript",
+        "ts": "TypeScript",
+        "ml": "Machine Learning",
+        "machine-learning": "Machine Learning",
+        "ai": "Artificial Intelligence",
+        "dl": "Deep Learning",
+        "nlp": "Natural Language Processing",
+        "data analytics": "Data Analysis",
+        "sklearn": "Scikit-learn",
+        "scikit learn": "Scikit-learn",
+        "powerbi": "Power BI",
+        "power-bi": "Power BI",
+        "ms excel": "Excel",
+        "microsoft excel": "Excel",
+        "postgres": "PostgreSQL",
+        "mongo": "MongoDB",
+        "reactjs": "React",
+        "react.js": "React",
+        "nodejs": "Node.js",
+        "node js": "Node.js",
+        "express": "Express.js",
+        "rest apis": "REST API",
+        "restful api": "REST API",
+        "restful apis": "REST API",
+        "amazon web services": "AWS",
+        "gcp": "Google Cloud",
+        "google cloud platform": "Google Cloud",
+        "k8s": "Kubernetes",
+        "postgresql database": "PostgreSQL",
+        "structured query language": "SQL",
+        "git hub": "GitHub",
+        "github repository": "GitHub"
+    },
+    "skill_stacks": {
+        "MERN": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js"
+        ],
+        "MEAN": [
+            "MongoDB",
+            "Express.js",
+            "Angular",
+            "Node.js"
+        ],
+        "MEVN": [
+            "MongoDB",
+            "Express.js",
+            "Vue.js",
+            "Node.js"
+        ],
+        "LAMP": [
+            "Linux",
+            "Apache",
+            "MySQL",
+            "PHP"
+        ],
+        "PERN": [
+            "PostgreSQL",
+            "Express.js",
+            "React",
+            "Node.js"
+        ]
+    }
+}

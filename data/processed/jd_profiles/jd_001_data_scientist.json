@@ -1,0 +1,43 @@
+{
+    "role": "Data Scientist",
+    "skills": {
+        "required": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Statistics",
+            "Data Analysis"
+        ],
+        "preferred": [
+            "Power BI",
+            "Tableau",
+            "TensorFlow",
+            "XGBoost",
+            "AWS",
+            "Docker"
+        ]
+    },
+    "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "Bachelor's degree",
+            "Master's degree"
+        ],
+        "preferred": [],
+        "fields_of_study": [
+            "Computer Science",
+            "Data Science",
+            "Statistics",
+            "Mathematics",
+            "Economics"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: Data Scientist\nCompany: InsightAI Technologies\nLocation: Bangalore, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are looking for a Data Scientist to analyze complex datasets and\ndevelop machine learning solutions that support business decision-making.\nThe candidate will work with data engineering, product, and business\nteams to build predictive models and analytical solutions.\nREQUIRED EXPERIENCE\n2-5 years of experience in data science, machine learning, or a related\nanalytical role.\nREQUIRED SKILLS\n- Python\n- SQL\n- Pandas\n- NumPy\n- Scikit-learn\n- Machine Learning\n- Statistics\n- Exploratory Data Analysis\n- Feature Engineering\nPREFERRED SKILLS\n- Power BI\n- Tableau\n- XGBoost\n- TensorFlow\n- AWS\n- Docker\nEDUCATION\n- Bachelor's or Master's degree in Computer Science, Statistics,\nMathematics, Economics, Data Science, or a related field.\nRESPONSIBILITIES\n- Analyze large datasets to identify business trends.\n- Perform data cleaning and preprocessing.\n- Develop and evaluate machine learning models.\n- Perform feature engineering.\n- Conduct exploratory data analysis.\n- Communicate analytical findings to stakeholders.\n- Create data visualizations and reports.\n- Collaborate with data engineers and business teams.\nCERTIFICATIONS\nData science, machine learning, cloud computing, or analytics\ncertifications are preferred but not mandatory."
+}

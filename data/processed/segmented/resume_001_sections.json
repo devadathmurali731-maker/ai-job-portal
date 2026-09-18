@@ -1,0 +1,32 @@
+{
+    "summary": [
+        "Software Engineer with 4 years of experience building backend applications and REST APIs using Java, Python, SQL and Spring Boot."
+    ],
+    "skills": [
+        "Java",
+        "Python",
+        "SQL",
+        "Spring Boot",
+        "REST APIs",
+        "Git",
+        "Docker"
+    ],
+    "work_experience": [
+        "ABC Technologies",
+        "Software Engineer",
+        "2022 - Present",
+        "- Developed REST APIs using Spring Boot.",
+        "- Worked with MySQL and PostgreSQL databases.",
+        "- Used Git and Docker in application development.",
+        "- Participated in Agile software development."
+    ],
+    "education": [
+        "B.Tech in Computer Science and Engineering",
+        "XYZ University",
+        "2022"
+    ],
+    "certifications": [
+        "Oracle Java Certification",
+        "Docker Certified Associate"
+    ]
+}

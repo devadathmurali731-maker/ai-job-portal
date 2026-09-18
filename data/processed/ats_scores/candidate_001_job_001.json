@@ -1,0 +1,19 @@
+{
+    "candidate_id": "CAND_001",
+    "job_id": "JOB_001",
+    "ats_score": 87,
+    "matched_skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Statistics"
+    ],
+    "missing_skills": [
+        "AWS"
+    ],
+    "model_version": "ats_v1.0",
+    "timestamp": "2026-09-17T10:15:00"
+}

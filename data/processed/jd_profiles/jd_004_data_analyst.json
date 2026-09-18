@@ -1,0 +1,38 @@
+{
+    "role": "Data Analyst",
+    "skills": {
+        "required": [
+            "SQL",
+            "Power BI",
+            "Microsoft Excel",
+            "Data Analysis",
+            "Data Visualization"
+        ],
+        "preferred": [
+            "Python",
+            "SQL",
+            "PostgreSQL",
+            "Tableau",
+            "Pandas"
+        ]
+    },
+    "experience": {
+        "minimum_years": 1,
+        "maximum_years": 3,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "Bachelor's degree"
+        ],
+        "preferred": [],
+        "fields_of_study": [
+            "Statistics",
+            "Mathematics",
+            "Economics",
+            "Business Administration",
+            "Commerce"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: Data Analyst\nCompany: InsightSpark Analytics\nLocation: Kochi, Kerala, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are looking for a Data Analyst to analyze business data, create\nreports and dashboards, identify trends, and provide actionable\ninsights to business stakeholders.\nREQUIRED EXPERIENCE\n1-3 years of experience in data analysis, business intelligence,\nreporting, or a related field.\nREQUIRED SKILLS\n- SQL\n- Microsoft Excel\n- Power BI\n- Data Analysis\n- Data Cleaning\n- Data Visualization\n- Statistical Analysis\n- Pivot Tables\n- Power Query\nPREFERRED SKILLS\n- Python\n- Pandas\n- Tableau\n- PostgreSQL\n- Business Intelligence\n- Data Modeling\nEDUCATION\n- Bachelor's degree in Economics, Statistics, Mathematics, Computer\nScience, Business Administration, Commerce, or a related field.\nRESPONSIBILITIES\n- Analyze business datasets.\n- Clean and transform raw data.\n- Write SQL queries to extract data.\n- Create Power BI dashboards.\n- Prepare regular business reports.\n- Identify trends and patterns.\n- Develop key performance indicators.\n- Communicate insights to stakeholders.\n- Support data-driven business decisions.\nCERTIFICATIONS\nPower BI, Excel, SQL, analytics, or business intelligence\ncertifications are preferred."
+}

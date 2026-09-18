@@ -1,0 +1,25 @@
+{
+    "resume_id": "resume_002",
+    "skills": [
+        {
+            "skill": "Python",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Data Analysis",
+            "confidence": 0.99
+        },
+        {
+            "skill": "SQL",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Power BI",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Excel",
+            "confidence": 0.99
+        }
+    ]
+}

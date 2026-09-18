@@ -1,0 +1,17 @@
+{
+    "candidate_id": "CAND_001",
+    "job_id": "JOB_001",
+    "screening_status": "SHORTLISTED",
+    "strengths": [
+        "Strong Python skills",
+        "Good SQL knowledge",
+        "Machine Learning experience",
+        "Relevant academic background"
+    ],
+    "gaps": [
+        "Limited AWS experience"
+    ],
+    "screening_score": 84,
+    "model_version": "screening_ai_v1.0",
+    "timestamp": "2026-09-17T10:30:00"
+}

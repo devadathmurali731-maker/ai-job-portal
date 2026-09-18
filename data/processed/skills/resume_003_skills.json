@@ -1,0 +1,45 @@
+{
+    "resume_id": "resume_003",
+    "skills": [
+        {
+            "skill": "Python",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Machine Learning",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Data Analysis",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Feature Engineering",
+            "confidence": 0.99
+        },
+        {
+            "skill": "NumPy",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Pandas",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Scikit-learn",
+            "confidence": 0.99
+        },
+        {
+            "skill": "XGBoost",
+            "confidence": 0.99
+        },
+        {
+            "skill": "SQL",
+            "confidence": 0.99
+        },
+        {
+            "skill": "Git",
+            "confidence": 0.99
+        }
+    ]
+}

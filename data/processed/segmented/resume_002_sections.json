@@ -1,0 +1,29 @@
+{
+    "summary": [
+        "Data Analyst with 3 years of experience in data analysis, business intelligence and reporting. Experienced in SQL, Python, Excel and Power BI."
+    ],
+    "work_experience": [
+        "XYZ Analytics Pvt. Ltd.",
+        "Data Analyst",
+        "2023 - Present",
+        "- Created Power BI dashboards for business reporting.",
+        "- Developed SQL queries for data extraction and analysis.",
+        "- Automated Excel reports using Python.",
+        "- Performed data cleaning and exploratory data analysis."
+    ],
+    "education": [
+        "B.Sc. Economics",
+        "ABC University",
+        "2022"
+    ],
+    "certifications": [
+        "Microsoft Power BI Data Analyst",
+        "Google Data Analytics Certificate",
+        "Category | Details",
+        "Technical Skills | Python, SQL, Excel, Power BI",
+        "Databases | MySQL, PostgreSQL",
+        "Visualization | Power BI, Excel",
+        "Analytics | Statistical Analysis, Data Cleaning",
+        "Tools | Git, Jupyter Notebook"
+    ]
+}

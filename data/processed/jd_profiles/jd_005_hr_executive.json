@@ -1,0 +1,33 @@
+{
+    "role": "HR Executive",
+    "skills": {
+        "required": [
+            "Microsoft Excel",
+            "Communication",
+            "Recruitment",
+            "Talent Acquisition"
+        ],
+        "preferred": [
+            "Payroll"
+        ]
+    },
+    "experience": {
+        "minimum_years": 2,
+        "maximum_years": 4,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "MBA"
+        ],
+        "preferred": [
+            "Bachelor's degree"
+        ],
+        "fields_of_study": [
+            "Business Administration",
+            "Human Resources",
+            "Commerce"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: HR Executive\nCompany: PeopleFirst Technologies\nLocation: Kochi, Kerala, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are looking for an HR Executive to support recruitment, employee\nonboarding, HR operations, employee engagement, and day-to-day human\nresource activities.\nREQUIRED EXPERIENCE\n2-4 years of experience in human resources, recruitment, talent\nacquisition, or a related role.\nREQUIRED SKILLS\n- Recruitment\n- Talent Acquisition\n- Employee Relations\n- Employee Onboarding\n- HR Operations\n- Microsoft Excel\n- Communication\n- Interpersonal Skills\n- Problem Solving\nPREFERRED SKILLS\n- HRMS\n- Payroll\n- Performance Management\n- Employee Engagement\n- Conflict Resolution\n- HR Reporting\nEDUCATION\n- Bachelor's degree in Human Resources, Business Administration,\nCommerce, or a related field.\n- MBA in Human Resources is preferred.\nRESPONSIBILITIES\n- Manage recruitment activities.\n- Screen resumes and shortlist candidates.\n- Coordinate candidate interviews.\n- Manage employee onboarding.\n- Maintain employee records.\n- Support performance management activities.\n- Handle employee queries.\n- Prepare HR reports.\n- Support employee engagement activities.\n- Coordinate with hiring managers.\nCERTIFICATIONS\nHR certifications are preferred but not mandatory."
+}

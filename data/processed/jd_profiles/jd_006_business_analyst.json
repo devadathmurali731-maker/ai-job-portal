@@ -1,0 +1,34 @@
+{
+    "role": "Business Analyst",
+    "skills": {
+        "required": [
+            "SQL",
+            "Power BI",
+            "Microsoft Excel",
+            "Communication"
+        ],
+        "preferred": [
+            "Data Visualization"
+        ]
+    },
+    "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5,
+        "is_fresher_allowed": false
+    },
+    "education": {
+        "required": [
+            "Bachelor's degree",
+            "Master's degree"
+        ],
+        "preferred": [],
+        "fields_of_study": [
+            "Computer Science",
+            "Statistics",
+            "Economics",
+            "Business Administration",
+            "Commerce"
+        ]
+    },
+    "normalized_text": "JOB DESCRIPTION\nJob Title: Business Analyst\nCompany: Business Solutions India\nLocation: Bangalore, India\nEmployment Type: Full-time\nJOB SUMMARY\nWe are looking for a Business Analyst to gather business requirements,\nanalyze business processes, work with stakeholders, and support\ndata-driven business decisions.\nREQUIRED EXPERIENCE\n2-5 years of experience in business analysis, data analysis, consulting,\nor a related field.\nREQUIRED SKILLS\n- Requirements Gathering\n- Business Process Analysis\n- SQL\n- Microsoft Excel\n- Power BI\n- Stakeholder Management\n- Communication\n- Problem Solving\n- Business Documentation\nPREFERRED SKILLS\n- Agile\n- Scrum\n- Jira\n- Confluence\n- Data Visualization\n- Process Improvement\n- User Stories\n- Gap Analysis\nEDUCATION\n- Bachelor's or Master's degree in Business Administration, Economics,\nCommerce, Statistics, Computer Science, or a related field.\nRESPONSIBILITIES\n- Gather requirements from business stakeholders.\n- Analyze existing business processes.\n- Identify process improvement opportunities.\n- Prepare business requirement documents.\n- Create user stories and acceptance criteria.\n- Analyze business data using SQL and Excel.\n- Develop business dashboards.\n- Communicate requirements to technical teams.\n- Participate in Agile meetings.\n- Support business decision-making.\nCERTIFICATIONS\nBusiness analysis, Agile, Scrum, or analytics certifications\nare preferred."
+}

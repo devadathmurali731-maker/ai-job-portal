@@ -1,0 +1,29 @@
+{
+    "candidate_id": "CAND_001",
+    "resume_id": "RESUME_001",
+    "name": "Priya Nair",
+    "target_role": "Data Scientist",
+    "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Statistics",
+        "Data Analysis"
+    ],
+    "experience": {
+        "total_years": 2,
+        "current_level": "Junior"
+    },
+    "education": [
+        {
+            "degree": "Master's degree",
+            "field": "Data Science"
+        }
+    ],
+    "source_file": "resume_001.txt",
+    "parser_version": "resume_parser_v1.0",
+    "timestamp": "2026-09-17T10:00:00"
+}

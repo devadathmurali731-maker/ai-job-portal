@@ -1,0 +1,35 @@
+ARJUN KUMAR
+Business Intelligence Analyst
+Chennai, Tamil Nadu
+Email: arjun.kumar@example.com
+Phone: +91-90000-44444
+PROFESSIONAL SUMMARY
+Business Intelligence Analyst with 4 years of experience in business reporting, data visualization
+and analytics. Experienced in Power BI, SQL, Excel and Python.
+Skill Category Technology Experience
+Business Intelligence Power BI 4 Years
+Database SQL / MySQL 4 Years
+Programming Python 3 Years
+Spreadsheet Microsoft Excel 4 Years
+Data Visualization Power BI / Excel 4 Years
+PROFESSIONAL EXPERIENCE
+Global Analytics Pvt. Ltd.
+Business Intelligence Analyst
+2022 - Present
+- Designed interactive Power BI dashboards for management.
+- Created SQL queries for business reporting.
+- Analyzed sales and customer data.
+- Automated recurring Excel reports.
+- Presented analytical insights to business stakeholders.
+PROJECTS
+Sales Performance Dashboard
+- Built a Power BI dashboard to monitor regional sales performance.
+- Created KPIs for revenue, profit and sales growth.
+- Analyzed monthly and regional sales trends.
+EDUCATION
+MBA in Business Analytics
+ABC Business School
+2022
+CERTIFICATIONS
+Microsoft Power BI Data Analyst
+Advanced SQL Certification

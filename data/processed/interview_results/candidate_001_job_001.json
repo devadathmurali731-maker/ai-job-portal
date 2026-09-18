@@ -1,0 +1,10 @@
+{
+    "candidate_id": "CAND_001",
+    "job_id": "JOB_001",
+    "interview_score": 82,
+    "technical_score": 85,
+    "communication_score": 79,
+    "interview_status": "PASSED",
+    "model_version": "interview_ai_v1.0",
+    "timestamp": "2026-09-17T11:30:00"
+}
