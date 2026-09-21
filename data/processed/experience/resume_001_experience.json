@@ -1,0 +1,59 @@
+{
+    "resume_id": "resume_001",
+    "total_experience_years": 4.75,
+    "experiences": [
+        {
+            "company": "ABC Technologies",
+            "job_title": "Software Engineer",
+            "start_date": "2022-01",
+            "end_date": "2026-09",
+            "duration_months": 57,
+            "experience_years": 4.75,
+            "is_current": true,
+            "responsibilities": [
+                "Developed REST APIs using Spring Boot.",
+                "Worked with MySQL and PostgreSQL databases.",
+                "Used Git and Docker in application development.",
+                "Participated in Agile software development."
+            ]
+        }
+    ],
+    "gaps": [],
+    "overlaps": [],
+    "relevance_analysis": [
+        {
+            "company": "ABC Technologies",
+            "job_title": "Software Engineer",
+            "target_role": "Software Engineer",
+            "title_match": true,
+            "matched_keywords": [
+                "SQL",
+                "Spring Boot",
+                "REST APIs",
+                "Docker",
+                "Git"
+            ],
+            "missing_keywords": [
+                "Python",
+                "Java"
+            ],
+            "keyword_match_score": 0.71,
+            "relevance_score": 0.8
+        }
+    ],
+    "role_similarity": [
+        {
+            "role_1": "Software Engineer",
+            "role_2": "Software Engineer",
+            "shared_keywords": [
+                "api",
+                "database",
+                "git",
+                "programming",
+                "software development",
+                "testing"
+            ],
+            "similarity_score": 1.0
+        }
+    ]
+}

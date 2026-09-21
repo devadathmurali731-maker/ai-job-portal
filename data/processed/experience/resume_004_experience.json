@@ -1,0 +1,53 @@
+{
+    "resume_id": "resume_004",
+    "total_experience_years": 4.75,
+    "experiences": [
+        {
+            "company": "Global Analytics Pvt. Ltd.",
+            "job_title": "Business Intelligence Analyst",
+            "start_date": "2022-01",
+            "end_date": "2026-09",
+            "duration_months": 57,
+            "experience_years": 4.75,
+            "is_current": true,
+            "responsibilities": [
+                "Designed interactive Power BI dashboards for management.",
+                "Created SQL queries for business reporting.",
+                "Analyzed sales and customer data.",
+                "Automated recurring Excel reports.",
+                "Presented analytical insights to business stakeholders."
+            ]
+        }
+    ],
+    "gaps": [],
+    "overlaps": [],
+    "relevance_analysis": [
+        {
+            "company": "Global Analytics Pvt. Ltd.",
+            "job_title": "Business Intelligence Analyst",
+            "target_role": "Software Engineer",
+            "title_match": false,
+            "matched_keywords": [
+                "SQL"
+            ],
+            "missing_keywords": [
+                "Python",
+                "Java",
+                "Spring Boot",
+                "REST APIs",
+                "Docker",
+                "Git"
+            ],
+            "keyword_match_score": 0.14,
+            "relevance_score": 0.1
+        }
+    ],
+    "role_similarity": [
+        {
+            "role_1": "Business Intelligence Analyst",
+            "role_2": "Software Engineer",
+            "shared_keywords": [],
+            "similarity_score": 0.0
+        }
+    ]
+}
