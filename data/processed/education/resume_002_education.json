@@ -1,0 +1,64 @@
+{
+    "resume_id": "resume_002",
+    "education": [
+        {
+            "degree_type": "Bachelor of Science",
+            "field_of_study": ". Economics",
+            "institution": "ABC University",
+            "graduation_year": 2022
+        }
+    ],
+    "certifications": [
+        {
+            "certification_name": "Microsoft Power BI Data Analyst",
+            "provider": "Microsoft",
+            "relevance_category": "Business Intelligence"
+        },
+        {
+            "certification_name": "Google Data Analytics Certificate",
+            "provider": "Google",
+            "relevance_category": "Data Analytics"
+        },
+        {
+            "certification_name": "Category | Details",
+            "provider": "Unknown",
+            "relevance_category": "General"
+        },
+        {
+            "certification_name": "Technical Skills | Python, SQL, Excel, Power BI",
+            "provider": "Power BI",
+            "relevance_category": "Programming"
+        },
+        {
+            "certification_name": "Databases | MySQL, PostgreSQL",
+            "provider": "Unknown",
+            "relevance_category": "Database"
+        },
+        {
+            "certification_name": "Visualization | Power BI, Excel",
+            "provider": "Power BI",
+            "relevance_category": "Business Intelligence"
+        },
+        {
+            "certification_name": "Analytics | Statistical Analysis, Data Cleaning",
+            "provider": "Unknown",
+            "relevance_category": "General"
+        },
+        {
+            "certification_name": "Tools | Git, Jupyter Notebook",
+            "provider": "Unknown",
+            "relevance_category": "Development Tools"
+        }
+    ],
+    "education_relevance": [
+        {
+            "degree_type": "Bachelor of Science",
+            "field_of_study": ". Economics",
+            "target_role": "Software Engineer",
+            "matched_fields": [],
+            "field_relevance_score": 0.0,
+            "degree_level_score": 0.9,
+            "education_relevance_score": 0.27
+        }
+    ]
+}

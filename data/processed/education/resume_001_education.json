@@ -1,0 +1,36 @@
+{
+    "resume_id": "resume_001",
+    "education": [
+        {
+            "degree_type": "Bachelor of Technology",
+            "field_of_study": "Computer Science and Engineering",
+            "institution": "XYZ University",
+            "graduation_year": 2022
+        }
+    ],
+    "certifications": [
+        {
+            "certification_name": "Oracle Java Certification",
+            "provider": "Oracle",
+            "relevance_category": "Programming"
+        },
+        {
+            "certification_name": "Docker Certified Associate",
+            "provider": "Docker",
+            "relevance_category": "DevOps"
+        }
+    ],
+    "education_relevance": [
+        {
+            "degree_type": "Bachelor of Technology",
+            "field_of_study": "Computer Science and Engineering",
+            "target_role": "Software Engineer",
+            "matched_fields": [
+                "computer science"
+            ],
+            "field_relevance_score": 1.0,
+            "degree_level_score": 0.9,
+            "education_relevance_score": 0.97
+        }
+    ]
+}

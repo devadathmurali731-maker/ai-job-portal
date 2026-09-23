@@ -1,0 +1,34 @@
+{
+    "resume_id": "resume_004",
+    "education": [
+        {
+            "degree_type": "Master of Business Administration",
+            "field_of_study": "Business Analytics",
+            "institution": "ABC Business School",
+            "graduation_year": 2022
+        }
+    ],
+    "certifications": [
+        {
+            "certification_name": "Microsoft Power BI Data Analyst",
+            "provider": "Microsoft",
+            "relevance_category": "Business Intelligence"
+        },
+        {
+            "certification_name": "Advanced SQL Certification",
+            "provider": "Unknown",
+            "relevance_category": "Database"
+        }
+    ],
+    "education_relevance": [
+        {
+            "degree_type": "Master of Business Administration",
+            "field_of_study": "Business Analytics",
+            "target_role": "Software Engineer",
+            "matched_fields": [],
+            "field_relevance_score": 0.0,
+            "degree_level_score": 1.0,
+            "education_relevance_score": 0.3
+        }
+    ]
+}

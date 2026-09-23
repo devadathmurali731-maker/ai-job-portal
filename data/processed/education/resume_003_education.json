@@ -1,0 +1,36 @@
+{
+    "resume_id": "resume_003",
+    "education": [
+        {
+            "degree_type": "Bachelor of Technology",
+            "field_of_study": "Computer Science and Engineering",
+            "institution": "Kerala Technical University",
+            "graduation_year": 2024
+        }
+    ],
+    "certifications": [
+        {
+            "certification_name": "Machine Learning Specialization",
+            "provider": "Unknown",
+            "relevance_category": "Machine Learning"
+        },
+        {
+            "certification_name": "Python for Data Science",
+            "provider": "Unknown",
+            "relevance_category": "Programming"
+        }
+    ],
+    "education_relevance": [
+        {
+            "degree_type": "Bachelor of Technology",
+            "field_of_study": "Computer Science and Engineering",
+            "target_role": "Software Engineer",
+            "matched_fields": [
+                "computer science"
+            ],
+            "field_relevance_score": 1.0,
+            "degree_level_score": 0.9,
+            "education_relevance_score": 0.97
+        }
+    ]
+}

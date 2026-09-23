@@ -1,5 +1,4 @@
 from pathlib import Path
-import logging
 
 from resume_extractor import (
     extract_text,
@@ -10,56 +9,68 @@ from resume_extractor import (
 )
 
 
-# Find the project folder
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Location of test resumes
 RESUME_DIR = BASE_DIR / "data" / "raw_resumes"
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-# Location for test logs
-LOG_DIR = BASE_DIR / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_FILE = LOG_DIR / "extraction_test.log"
-
-logging.basicConfig(
-    filename=LOG_FILE,
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
-logging.info("========== Resume Extraction Test Started ==========")
+def test_resume_directory_exists():
+    assert RESUME_DIR.exists()
+    assert RESUME_DIR.is_dir()
 
 
-# Test every resume
-for resume_file in RESUME_DIR.iterdir():
+def test_resume_files_exist():
+    resume_files = [
+        file
+        for file in RESUME_DIR.iterdir()
+        if file.suffix.lower() in [".docx", ".pdf"]
+    ]
 
-    if resume_file.suffix.lower() in [".docx", ".pdf"]:
+    assert len(resume_files) > 0
 
-        print("\n" + "=" * 60)
-        print(f"FILE: {resume_file.name}")
-        print("=" * 60)
-        logging.info(f"Processing file: {resume_file.name}")
+
+def test_extract_text_from_resumes():
+    resume_files = [
+        file
+        for file in RESUME_DIR.iterdir()
+        if file.suffix.lower() in [".docx", ".pdf"]
+    ]
+
+    assert len(resume_files) > 0
+
+    for resume_file in resume_files:
         extracted_text = extract_text(resume_file)
+
+        assert extracted_text is not None
+        assert isinstance(extracted_text, str)
+        assert len(extracted_text.strip()) > 0
+
+
+def test_clean_and_normalize_resume_text():
+    resume_files = [
+        file
+        for file in RESUME_DIR.iterdir()
+        if file.suffix.lower() in [".docx", ".pdf"]
+    ]
+
+    assert len(resume_files) > 0
+
+    for resume_file in resume_files:
+        extracted_text = extract_text(resume_file)
+
         cleaned_text = clean_text(extracted_text)
         normalized_text = normalize_bullets(cleaned_text)
         normalized_text = normalize_section_headings(normalized_text)
         final_text = normalize_special_characters(normalized_text)
-        output_file = PROCESSED_DIR / f"{resume_file.stem}.txt"
-        output_file.write_text(final_text, encoding="utf-8")
-        logging.info(
-    f"SUCCESS: {resume_file.name} -> {output_file.name}"
-)
-        print(final_text)
-logging.info("========== Resume Extraction Test Completed ==========")
 
-        
+        assert final_text is not None
+        assert isinstance(final_text, str)
+        assert len(final_text.strip()) > 0
 
 
-        
+def test_processed_directory_exists():
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
-
-
-        
+    assert PROCESSED_DIR.exists()
+    assert PROCESSED_DIR.is_dir()
