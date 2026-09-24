@@ -1,0 +1,338 @@
+[
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_001_data_scientist",
+        "component_scores": {
+            "skills": 0.651990532875061,
+            "experience": 0.3412037789821625
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.5354455001652241
+    },
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_002_software_engineer",
+        "component_scores": {
+            "skills": 0.8202179074287415,
+            "experience": 0.37159135937690735
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.6519829519093037
+    },
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_003_ml_engineer",
+        "component_scores": {
+            "skills": 0.6279072761535645,
+            "experience": 0.31292855739593506
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.5097902566194534
+    },
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_004_data_analyst",
+        "component_scores": {
+            "skills": 0.6448430418968201,
+            "experience": 0.3167575001716614
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.5218109637498856
+    },
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_005_hr_executive",
+        "component_scores": {
+            "skills": 0.3170537054538727,
+            "experience": 0.28521522879600525
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.3051142767071724
+    },
+    {
+        "resume_id": "resume_001",
+        "jd_id": "jd_006_business_analyst",
+        "component_scores": {
+            "skills": 0.3769987225532532,
+            "experience": 0.28449058532714844
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.3423081710934639
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_001_data_scientist",
+        "component_scores": {
+            "skills": 0.616266667842865,
+            "experience": 0.3585361838340759
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.5196177363395691
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_002_software_engineer",
+        "component_scores": {
+            "skills": 0.5465039610862732,
+            "experience": 0.21132506430149078
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.4208118747919798
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_003_ml_engineer",
+        "component_scores": {
+            "skills": 0.4943646788597107,
+            "experience": 0.25343531370162964
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.4040161669254303
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_004_data_analyst",
+        "component_scores": {
+            "skills": 0.8667070865631104,
+            "experience": 0.4605250954627991
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.7143888399004936
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_005_hr_executive",
+        "component_scores": {
+            "skills": 0.49809154868125916,
+            "experience": 0.19053760170936584
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.38275881856679916
+    },
+    {
+        "resume_id": "resume_002",
+        "jd_id": "jd_006_business_analyst",
+        "component_scores": {
+            "skills": 0.7186093926429749,
+            "experience": 0.3522449731826782
+        },
+        "available_components": [
+            "skills",
+            "experience"
+        ],
+        "final_semantic_score": 0.5812227353453636
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_001_data_scientist",
+        "component_scores": {
+            "skills": 0.8922793865203857,
+            "experience": 0.41690191626548767,
+            "projects": 0.3255133628845215
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.6363129407167435
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_002_software_engineer",
+        "component_scores": {
+            "skills": 0.4938091039657593,
+            "experience": 0.3250963091850281,
+            "projects": 0.17256850004196167
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.3789471447467804
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_003_ml_engineer",
+        "component_scores": {
+            "skills": 0.8478225469589233,
+            "experience": 0.4972515404224396,
+            "projects": 0.2654496431350708
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.6261766642332076
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_004_data_analyst",
+        "component_scores": {
+            "skills": 0.7325517535209656,
+            "experience": 0.38069406151771545,
+            "projects": 0.26361119747161865
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.5332063347101211
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_005_hr_executive",
+        "component_scores": {
+            "skills": 0.33610424399375916,
+            "experience": 0.19892896711826324,
+            "projects": 0.07915365695953369
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.2435615435242653
+    },
+    {
+        "resume_id": "resume_003",
+        "jd_id": "jd_006_business_analyst",
+        "component_scores": {
+            "skills": 0.3273286819458008,
+            "experience": 0.20434793829917908,
+            "projects": 0.20693904161453247
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.2663565307855606
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_001_data_scientist",
+        "component_scores": {
+            "skills": 0.5589964389801025,
+            "experience": 0.334987074136734,
+            "projects": 0.2515539526939392
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.43030513226985934
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_002_software_engineer",
+        "component_scores": {
+            "skills": 0.6052642464637756,
+            "experience": 0.2286151647567749,
+            "projects": 0.1455300748348236
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.400322687625885
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_003_ml_engineer",
+        "component_scores": {
+            "skills": 0.4707086384296417,
+            "experience": 0.25351768732070923,
+            "projects": 0.09873338043689728
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.3311563014984131
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_004_data_analyst",
+        "component_scores": {
+            "skills": 0.811078667640686,
+            "experience": 0.42237287759780884,
+            "projects": 0.4841904044151306
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.6290892779827119
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_005_hr_executive",
+        "component_scores": {
+            "skills": 0.44082796573638916,
+            "experience": 0.2140912264585495,
+            "projects": 0.16126945614814758
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.31689524203538894
+    },
+    {
+        "resume_id": "resume_004",
+        "jd_id": "jd_006_business_analyst",
+        "component_scores": {
+            "skills": 0.676676869392395,
+            "experience": 0.3912360966205597,
+            "projects": 0.3175329864025116
+        },
+        "available_components": [
+            "skills",
+            "experience",
+            "projects"
+        ],
+        "final_semantic_score": 0.5192158609628678
+    }
+]
