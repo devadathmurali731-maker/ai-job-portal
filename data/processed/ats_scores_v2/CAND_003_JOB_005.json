@@ -1,0 +1,106 @@
+{
+    "candidate_id": "CAND_003",
+    "job_id": "JOB_005",
+    "role": "HR Executive",
+    "component_scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 50.0,
+        "education_alignment": 10.0,
+        "semantic_similarity": 24.35615435242653
+    },
+    "original_weights": {
+        "skill_match": 0.35,
+        "experience_relevance": 0.3,
+        "education_alignment": 0.2,
+        "semantic_similarity": 0.15
+    },
+    "adjusted_weights": {
+        "skill_match": 0.35000000000000003,
+        "experience_relevance": 0.30000000000000004,
+        "education_alignment": 0.20000000000000004,
+        "semantic_similarity": 0.15000000000000002
+    },
+    "weighted_contributions": {
+        "skill_match": 0.0,
+        "experience_relevance": 15.0,
+        "education_alignment": 2.0,
+        "semantic_similarity": 3.6534
+    },
+    "final_ats_score": 20.65,
+    "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment",
+        "semantic_similarity"
+    ],
+    "missing_components": [],
+    "component_details": {
+        "skill_match": {
+            "available": true,
+            "score": 0.0,
+            "required_score": 0.0,
+            "preferred_score": 0.0,
+            "required_matched": [],
+            "required_missing": [
+                "Microsoft Excel",
+                "Communication",
+                "Recruitment",
+                "Talent Acquisition"
+            ],
+            "preferred_matched": [],
+            "preferred_missing": [
+                "Payroll"
+            ]
+        },
+        "experience_relevance": {
+            "available": true,
+            "score": 50.0,
+            "candidate_experience_years": 2.75,
+            "minimum_required_years": 2,
+            "maximum_required_years": 4,
+            "experience_range_fit": 100.0,
+            "role_relevance": 0.0,
+            "title_match": false,
+            "matched_experience_keywords": [],
+            "required_experience_keywords": [
+                "microsoft excel",
+                "communication",
+                "recruitment",
+                "talent acquisition"
+            ],
+            "matched_required_experience_keywords": []
+        },
+        "education_alignment": {
+            "available": true,
+            "score": 10.0,
+            "degree_score": 20.0,
+            "required_degree_score": 0.0,
+            "preferred_degree_score": 100.0,
+            "field_relevance_score": 0.0,
+            "matched_required_degrees": [],
+            "missing_required_degrees": [
+                "MBA"
+            ],
+            "matched_preferred_degrees": [
+                "Bachelor's degree"
+            ],
+            "missing_preferred_degrees": [],
+            "matched_fields": []
+        },
+        "semantic_similarity": {
+            "available": true,
+            "score": 24.35615435242653,
+            "raw_score": 0.2435615435242653,
+            "component_scores": {
+                "skills": 0.33610424399375916,
+                "experience": 0.19892896711826324,
+                "projects": 0.07915365695953369
+            },
+            "available_components": [
+                "skills",
+                "experience",
+                "projects"
+            ]
+        }
+    }
+}

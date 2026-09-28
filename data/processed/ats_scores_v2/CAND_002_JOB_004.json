@@ -1,0 +1,141 @@
+{
+    "candidate_id": "CAND_002",
+    "job_id": "JOB_004",
+    "role": "Data Analyst",
+    "component_scores": {
+        "skill_match": 56.00000000000001,
+        "experience_relevance": 86.44444444444444,
+        "education_alignment": 100.0,
+        "semantic_similarity": 71.43888399004936
+    },
+    "original_weights": {
+        "skill_match": 0.4,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.1,
+        "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+        "skill_match": 0.4,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.1,
+        "semantic_similarity": 0.25
+    },
+    "weighted_contributions": {
+        "skill_match": 22.4,
+        "experience_relevance": 21.6111,
+        "education_alignment": 10.0,
+        "semantic_similarity": 17.8597
+    },
+    "final_ats_score": 71.87,
+    "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment",
+        "semantic_similarity"
+    ],
+    "missing_components": [],
+    "component_details": {
+        "skill_match": {
+            "available": true,
+            "score": 56.00000000000001,
+            "required_score": 60.0,
+            "preferred_score": 40.0,
+            "required_matched": [
+                {
+                    "skill": "SQL",
+                    "resume_skill": "SQL",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Power BI",
+                    "resume_skill": "Power BI",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Data Analysis",
+                    "resume_skill": "Data Analysis",
+                    "confidence": 0.99
+                }
+            ],
+            "required_missing": [
+                "Microsoft Excel",
+                "Data Visualization"
+            ],
+            "preferred_matched": [
+                {
+                    "skill": "Python",
+                    "resume_skill": "Python",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "SQL",
+                    "resume_skill": "SQL",
+                    "confidence": 0.99
+                }
+            ],
+            "preferred_missing": [
+                "PostgreSQL",
+                "Tableau",
+                "Pandas"
+            ]
+        },
+        "experience_relevance": {
+            "available": true,
+            "score": 86.44444444444444,
+            "candidate_experience_years": 3.75,
+            "minimum_required_years": 1,
+            "maximum_required_years": 3,
+            "experience_range_fit": 100.0,
+            "role_relevance": 72.88888888888889,
+            "title_match": true,
+            "matched_experience_keywords": [
+                "sql",
+                "power bi",
+                "data analysis",
+                "python"
+            ],
+            "required_experience_keywords": [
+                "sql",
+                "power bi",
+                "microsoft excel",
+                "data analysis",
+                "data visualization"
+            ],
+            "matched_required_experience_keywords": [
+                "sql",
+                "power bi",
+                "data analysis"
+            ]
+        },
+        "education_alignment": {
+            "available": true,
+            "score": 100.0,
+            "degree_score": 100.0,
+            "required_degree_score": 100.0,
+            "preferred_degree_score": 100.0,
+            "field_relevance_score": 100.0,
+            "matched_required_degrees": [
+                "Bachelor's degree"
+            ],
+            "missing_required_degrees": [],
+            "matched_preferred_degrees": [],
+            "missing_preferred_degrees": [],
+            "matched_fields": [
+                "economics"
+            ]
+        },
+        "semantic_similarity": {
+            "available": true,
+            "score": 71.43888399004936,
+            "raw_score": 0.7143888399004936,
+            "component_scores": {
+                "skills": 0.8667070865631104,
+                "experience": 0.4605250954627991
+            },
+            "available_components": [
+                "skills",
+                "experience"
+            ]
+        }
+    }
+}

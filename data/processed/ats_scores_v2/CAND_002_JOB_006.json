@@ -1,0 +1,121 @@
+{
+    "candidate_id": "CAND_002",
+    "job_id": "JOB_006",
+    "role": "Business Analyst",
+    "component_scores": {
+        "skill_match": 40.0,
+        "experience_relevance": 64.0,
+        "education_alignment": 80.0,
+        "semantic_similarity": 58.12227353453636
+    },
+    "original_weights": {
+        "skill_match": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+        "skill_match": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "weighted_contributions": {
+        "skill_match": 14.0,
+        "experience_relevance": 16.0,
+        "education_alignment": 12.0,
+        "semantic_similarity": 14.5306
+    },
+    "final_ats_score": 56.53,
+    "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment",
+        "semantic_similarity"
+    ],
+    "missing_components": [],
+    "component_details": {
+        "skill_match": {
+            "available": true,
+            "score": 40.0,
+            "required_score": 50.0,
+            "preferred_score": 0.0,
+            "required_matched": [
+                {
+                    "skill": "SQL",
+                    "resume_skill": "SQL",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Power BI",
+                    "resume_skill": "Power BI",
+                    "confidence": 0.99
+                }
+            ],
+            "required_missing": [
+                "Microsoft Excel",
+                "Communication"
+            ],
+            "preferred_matched": [],
+            "preferred_missing": [
+                "Data Visualization"
+            ]
+        },
+        "experience_relevance": {
+            "available": true,
+            "score": 64.0,
+            "candidate_experience_years": 3.75,
+            "minimum_required_years": 2,
+            "maximum_required_years": 5,
+            "experience_range_fit": 100.0,
+            "role_relevance": 28.000000000000004,
+            "title_match": false,
+            "matched_experience_keywords": [
+                "sql",
+                "power bi"
+            ],
+            "required_experience_keywords": [
+                "sql",
+                "power bi",
+                "microsoft excel",
+                "communication"
+            ],
+            "matched_required_experience_keywords": [
+                "sql",
+                "power bi"
+            ]
+        },
+        "education_alignment": {
+            "available": true,
+            "score": 80.0,
+            "degree_score": 60.00000000000001,
+            "required_degree_score": 50.0,
+            "preferred_degree_score": 100.0,
+            "field_relevance_score": 100.0,
+            "matched_required_degrees": [
+                "Bachelor's degree"
+            ],
+            "missing_required_degrees": [
+                "Master's degree"
+            ],
+            "matched_preferred_degrees": [],
+            "missing_preferred_degrees": [],
+            "matched_fields": [
+                "economics"
+            ]
+        },
+        "semantic_similarity": {
+            "available": true,
+            "score": 58.12227353453636,
+            "raw_score": 0.5812227353453636,
+            "component_scores": {
+                "skills": 0.7186093926429749,
+                "experience": 0.3522449731826782
+            },
+            "available_components": [
+                "skills",
+                "experience"
+            ]
+        }
+    }
+}

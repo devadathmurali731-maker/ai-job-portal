@@ -1,0 +1,138 @@
+{
+    "candidate_id": "CAND_004",
+    "job_id": "JOB_001",
+    "role": "Data Scientist",
+    "component_scores": {
+        "skill_match": 23.333333333333332,
+        "experience_relevance": 53.92857142857142,
+        "education_alignment": 30.000000000000004,
+        "semantic_similarity": 43.03051322698593
+    },
+    "original_weights": {
+        "skill_match": 0.4,
+        "experience_relevance": 0.2,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+        "skill_match": 0.4,
+        "experience_relevance": 0.2,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "weighted_contributions": {
+        "skill_match": 9.3333,
+        "experience_relevance": 10.7857,
+        "education_alignment": 4.5,
+        "semantic_similarity": 10.7576
+    },
+    "final_ats_score": 35.38,
+    "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment",
+        "semantic_similarity"
+    ],
+    "missing_components": [],
+    "component_details": {
+        "skill_match": {
+            "available": true,
+            "score": 23.333333333333332,
+            "required_score": 25.0,
+            "preferred_score": 16.666666666666664,
+            "required_matched": [
+                {
+                    "skill": "Python",
+                    "resume_skill": "Python",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "SQL",
+                    "resume_skill": "SQL",
+                    "confidence": 0.99
+                }
+            ],
+            "required_missing": [
+                "Machine Learning",
+                "Scikit-learn",
+                "Pandas",
+                "NumPy",
+                "Statistics",
+                "Data Analysis"
+            ],
+            "preferred_matched": [
+                {
+                    "skill": "Power BI",
+                    "resume_skill": "Power BI",
+                    "confidence": 0.99
+                }
+            ],
+            "preferred_missing": [
+                "Tableau",
+                "TensorFlow",
+                "XGBoost",
+                "AWS",
+                "Docker"
+            ]
+        },
+        "experience_relevance": {
+            "available": true,
+            "score": 53.92857142857142,
+            "candidate_experience_years": 4.75,
+            "minimum_required_years": 2,
+            "maximum_required_years": 5,
+            "experience_range_fit": 100.0,
+            "role_relevance": 7.857142857142857,
+            "title_match": false,
+            "matched_experience_keywords": [
+                "sql",
+                "power bi"
+            ],
+            "required_experience_keywords": [
+                "python",
+                "sql",
+                "machine learning",
+                "scikit learn",
+                "pandas",
+                "numpy",
+                "statistics",
+                "data analysis"
+            ],
+            "matched_required_experience_keywords": [
+                "sql"
+            ]
+        },
+        "education_alignment": {
+            "available": true,
+            "score": 30.000000000000004,
+            "degree_score": 60.00000000000001,
+            "required_degree_score": 50.0,
+            "preferred_degree_score": 100.0,
+            "field_relevance_score": 0.0,
+            "matched_required_degrees": [
+                "Master's degree"
+            ],
+            "missing_required_degrees": [
+                "Bachelor's degree"
+            ],
+            "matched_preferred_degrees": [],
+            "missing_preferred_degrees": [],
+            "matched_fields": []
+        },
+        "semantic_similarity": {
+            "available": true,
+            "score": 43.03051322698593,
+            "raw_score": 0.43030513226985934,
+            "component_scores": {
+                "skills": 0.5589964389801025,
+                "experience": 0.334987074136734,
+                "projects": 0.2515539526939392
+            },
+            "available_components": [
+                "skills",
+                "experience",
+                "projects"
+            ]
+        }
+    }
+}

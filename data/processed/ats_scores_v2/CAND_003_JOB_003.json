@@ -1,0 +1,161 @@
+{
+    "candidate_id": "CAND_003",
+    "job_id": "JOB_003",
+    "role": "Machine Learning Engineer",
+    "component_scores": {
+        "skill_match": 67.22222222222223,
+        "experience_relevance": 76.11111111111111,
+        "education_alignment": 80.0,
+        "semantic_similarity": 62.61766642332076
+    },
+    "original_weights": {
+        "skill_match": 0.45,
+        "experience_relevance": 0.2,
+        "education_alignment": 0.1,
+        "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+        "skill_match": 0.45,
+        "experience_relevance": 0.2,
+        "education_alignment": 0.1,
+        "semantic_similarity": 0.25
+    },
+    "weighted_contributions": {
+        "skill_match": 30.25,
+        "experience_relevance": 15.2222,
+        "education_alignment": 8.0,
+        "semantic_similarity": 15.6544
+    },
+    "final_ats_score": 69.13,
+    "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment",
+        "semantic_similarity"
+    ],
+    "missing_components": [],
+    "component_details": {
+        "skill_match": {
+            "available": true,
+            "score": 67.22222222222223,
+            "required_score": 77.77777777777779,
+            "preferred_score": 25.0,
+            "required_matched": [
+                {
+                    "skill": "Python",
+                    "resume_skill": "Python",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "SQL",
+                    "resume_skill": "SQL",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Machine Learning",
+                    "resume_skill": "Machine Learning",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Scikit-learn",
+                    "resume_skill": "Scikit-learn",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Pandas",
+                    "resume_skill": "Pandas",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "NumPy",
+                    "resume_skill": "NumPy",
+                    "confidence": 0.99
+                },
+                {
+                    "skill": "Git",
+                    "resume_skill": "Git",
+                    "confidence": 0.99
+                }
+            ],
+            "required_missing": [
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "preferred_matched": [
+                {
+                    "skill": "Machine Learning",
+                    "resume_skill": "Machine Learning",
+                    "confidence": 0.99
+                }
+            ],
+            "preferred_missing": [
+                "Deep Learning",
+                "AWS",
+                "Docker"
+            ]
+        },
+        "experience_relevance": {
+            "available": true,
+            "score": 76.11111111111111,
+            "candidate_experience_years": 2.75,
+            "minimum_required_years": 2,
+            "maximum_required_years": 5,
+            "experience_range_fit": 100.0,
+            "role_relevance": 52.22222222222223,
+            "title_match": true,
+            "matched_experience_keywords": [
+                "python",
+                "sql"
+            ],
+            "required_experience_keywords": [
+                "python",
+                "sql",
+                "machine learning",
+                "tensorflow",
+                "pytorch",
+                "scikit learn",
+                "pandas",
+                "numpy",
+                "git"
+            ],
+            "matched_required_experience_keywords": [
+                "python",
+                "sql"
+            ]
+        },
+        "education_alignment": {
+            "available": true,
+            "score": 80.0,
+            "degree_score": 60.00000000000001,
+            "required_degree_score": 50.0,
+            "preferred_degree_score": 100.0,
+            "field_relevance_score": 100.0,
+            "matched_required_degrees": [
+                "Bachelor's degree"
+            ],
+            "missing_required_degrees": [
+                "Master's degree"
+            ],
+            "matched_preferred_degrees": [],
+            "missing_preferred_degrees": [],
+            "matched_fields": [
+                "computer science"
+            ]
+        },
+        "semantic_similarity": {
+            "available": true,
+            "score": 62.61766642332076,
+            "raw_score": 0.6261766642332076,
+            "component_scores": {
+                "skills": 0.8478225469589233,
+                "experience": 0.4972515404224396,
+                "projects": 0.2654496431350708
+            },
+            "available_components": [
+                "skills",
+                "experience",
+                "projects"
+            ]
+        }
+    }
+}

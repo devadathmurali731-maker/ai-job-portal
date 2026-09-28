@@ -1,5 +1,8 @@
 """
 Generate ATS v2 scores from processed project data.
+
+This module generates ATS scores for every available
+resume-JD combination using the Day 13 ATS scoring engine.
 """
 
 import json
@@ -20,6 +23,12 @@ OUTPUT_DIR = (
     PROCESSED_DIR
     / "ats_scores_v2"
 )
+
+SKILLS_DIR = PROCESSED_DIR / "skills"
+EXPERIENCE_DIR = PROCESSED_DIR / "experience"
+EDUCATION_DIR = PROCESSED_DIR / "education"
+JD_DIR = PROCESSED_DIR / "jd_profiles"
+SEMANTIC_DIR = PROCESSED_DIR / "semantic_matching"
 
 
 def load_json(path):
@@ -54,35 +63,63 @@ def job_id_from_jd(jd_id):
     return f"JOB_{number}"
 
 
+def load_semantic_results():
+    """
+    Load all Day 12 semantic matching results.
+
+    Returns:
+        Dictionary keyed by (resume_id, jd_id).
+    """
+
+    semantic_path = (
+        SEMANTIC_DIR
+        / "multi_job_validation.json"
+    )
+
+    semantic_results = load_json(
+        semantic_path
+    )
+
+    semantic_lookup = {}
+
+    for result in semantic_results:
+
+        key = (
+            result.get("resume_id"),
+            result.get("jd_id")
+        )
+
+        semantic_lookup[key] = result
+
+    return semantic_lookup
+
+
 def generate_score(
     resume_id,
-    jd_filename
+    jd_filename,
+    semantic_lookup
 ):
     """
-    Generate one ATS v2 score.
+    Generate one ATS v2 score for one resume-JD pair.
     """
 
     skills_path = (
-        PROCESSED_DIR
-        / "skills"
+        SKILLS_DIR
         / f"{resume_id}_skills.json"
     )
 
     experience_path = (
-        PROCESSED_DIR
-        / "experience"
+        EXPERIENCE_DIR
         / f"{resume_id}_experience.json"
     )
 
     education_path = (
-        PROCESSED_DIR
-        / "education"
+        EDUCATION_DIR
         / f"{resume_id}_education.json"
     )
 
     jd_path = (
-        PROCESSED_DIR
-        / "jd_profiles"
+        JD_DIR
         / jd_filename
     )
 
@@ -102,7 +139,7 @@ def generate_score(
         jd_path
     )
 
-    resume_id = skills_data["resume_id"]
+    actual_resume_id = skills_data["resume_id"]
 
     jd_id = jd_data.get(
         "job_id",
@@ -112,30 +149,17 @@ def generate_score(
     role = jd_data["role"]
 
     # ---------------------------------------------------------
-    # Semantic result
+    # Semantic result from Day 12
     # ---------------------------------------------------------
 
-    semantic_validation_path = (
-        PROCESSED_DIR
-        / "semantic_matching"
-        / "multi_job_validation.json"
+    semantic_key = (
+        actual_resume_id,
+        jd_id
     )
 
-    semantic_validation = load_json(
-        semantic_validation_path
+    semantic_result = semantic_lookup.get(
+        semantic_key
     )
-
-    semantic_result = None
-
-    for result in semantic_validation:
-
-        if (
-            result.get("resume_id") == resume_id
-            and result.get("jd_id") == jd_id
-        ):
-
-            semantic_result = result
-            break
 
     # ---------------------------------------------------------
     # Run ATS engine
@@ -146,7 +170,7 @@ def generate_score(
     result = engine.calculate_score(
 
         candidate_id=candidate_id_from_resume(
-            resume_id
+            actual_resume_id
         ),
 
         job_id=job_id_from_jd(
@@ -183,7 +207,7 @@ def generate_score(
     )
 
     # ---------------------------------------------------------
-    # Output
+    # Save output
     # ---------------------------------------------------------
 
     OUTPUT_DIR.mkdir(
@@ -192,7 +216,7 @@ def generate_score(
     )
 
     output_filename = (
-        f"{candidate_id_from_resume(resume_id)}_"
+        f"{candidate_id_from_resume(actual_resume_id)}_"
         f"{job_id_from_jd(jd_id)}.json"
     )
 
@@ -213,22 +237,98 @@ def generate_score(
             indent=4
         )
 
-    print(
-        f"ATS score generated successfully:"
-        f"\n{output_path}"
-    )
-
-    print(
-        f"\nFinal ATS Score: "
-        f"{result['final_ats_score']}"
-    )
-
     return result
+
+
+def discover_resumes():
+    """
+    Discover all resumes that have skill extraction results.
+    """
+
+    resume_files = sorted(
+        SKILLS_DIR.glob("*_skills.json")
+    )
+
+    return [
+        file.stem.replace(
+            "_skills",
+            ""
+        )
+        for file in resume_files
+    ]
+
+
+def discover_jds():
+    """
+    Discover all JD profile JSON files.
+    """
+
+    return sorted(
+        file.name
+        for file in JD_DIR.glob("jd_*.json")
+    )
+
+
+def generate_all_scores():
+    """
+    Generate ATS scores for every resume-JD combination.
+    """
+
+    resumes = discover_resumes()
+
+    jd_files = discover_jds()
+
+    semantic_lookup = load_semantic_results()
+
+    print(
+        f"Found {len(resumes)} resumes."
+    )
+
+    print(
+        f"Found {len(jd_files)} job profiles."
+    )
+
+    expected_combinations = (
+        len(resumes) * len(jd_files)
+    )
+
+    print(
+        f"Expected ATS combinations: "
+        f"{expected_combinations}"
+    )
+
+    results = []
+
+    for resume_id in resumes:
+
+        for jd_filename in jd_files:
+
+            result = generate_score(
+                resume_id=resume_id,
+                jd_filename=jd_filename,
+                semantic_lookup=semantic_lookup
+            )
+
+            results.append(result)
+
+            print(
+                f"Generated: "
+                f"{result['candidate_id']} → "
+                f"{result['job_id']} "
+                f"({result['role']}) "
+                f"| Score: "
+                f"{result['final_ats_score']}"
+            )
+
+    print()
+    print(
+        f"Successfully generated "
+        f"{len(results)} ATS scores."
+    )
+
+    return results
 
 
 if __name__ == "__main__":
 
-    generate_score(
-        resume_id="resume_001",
-        jd_filename="jd_001_data_scientist.json"
-    )
+    generate_all_scores()
