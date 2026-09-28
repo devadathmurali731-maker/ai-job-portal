@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_005",
+    "role": "HR Executive",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 0,
+        "REVIEW": 0,
+        "REJECT": 4
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_005",
+            "role": "HR Executive",
+            "ats_score": 22.74,
+            "component_scores": {
+                "skill_match": 0.0,
+                "experience_relevance": 50.0,
+                "education_alignment": 10.0,
+                "semantic_similarity": 38.275881856679916
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_005",
+            "role": "HR Executive",
+            "ats_score": 21.58,
+            "component_scores": {
+                "skill_match": 0.0,
+                "experience_relevance": 50.0,
+                "education_alignment": 10.0,
+                "semantic_similarity": 30.51142767071724
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_005",
+            "role": "HR Executive",
+            "ats_score": 20.65,
+            "component_scores": {
+                "skill_match": 0.0,
+                "experience_relevance": 50.0,
+                "education_alignment": 10.0,
+                "semantic_similarity": 24.35615435242653
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_005",
+            "role": "HR Executive",
+            "ats_score": 19.75,
+            "component_scores": {
+                "skill_match": 0.0,
+                "experience_relevance": 50.0,
+                "education_alignment": 0.0,
+                "semantic_similarity": 31.689524203538895
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_006",
+    "role": "Business Analyst",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 0,
+        "REVIEW": 1,
+        "REJECT": 3
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_006",
+            "role": "Business Analyst",
+            "ats_score": 56.53,
+            "component_scores": {
+                "skill_match": 40.0,
+                "experience_relevance": 64.0,
+                "education_alignment": 80.0,
+                "semantic_similarity": 58.12227353453636
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_006",
+            "role": "Business Analyst",
+            "ats_score": 47.48,
+            "component_scores": {
+                "skill_match": 40.0,
+                "experience_relevance": 64.0,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 51.921586096286774
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_006",
+            "role": "Business Analyst",
+            "ats_score": 41.81,
+            "component_scores": {
+                "skill_match": 20.0,
+                "experience_relevance": 57.00000000000001,
+                "education_alignment": 80.0,
+                "semantic_similarity": 34.23081710934639
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_006",
+            "role": "Business Analyst",
+            "ats_score": 39.91,
+            "component_scores": {
+                "skill_match": 20.0,
+                "experience_relevance": 57.00000000000001,
+                "education_alignment": 80.0,
+                "semantic_similarity": 26.63565307855606
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        }
+    ]
+}

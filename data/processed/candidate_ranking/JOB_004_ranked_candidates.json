@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_004",
+    "role": "Data Analyst",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 1,
+        "REVIEW": 0,
+        "REJECT": 3
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_004",
+            "role": "Data Analyst",
+            "ats_score": 71.87,
+            "component_scores": {
+                "skill_match": 56.00000000000001,
+                "experience_relevance": 86.44444444444444,
+                "education_alignment": 100.0,
+                "semantic_similarity": 71.43888399004936
+            },
+            "decision": "SHORTLIST",
+            "decision_reason": "ATS score meets or exceeds the configured shortlisting threshold."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_004",
+            "role": "Data Analyst",
+            "ats_score": 49.99,
+            "component_scores": {
+                "skill_match": 44.00000000000001,
+                "experience_relevance": 56.222222222222214,
+                "education_alignment": 50.0,
+                "semantic_similarity": 53.320633471012115
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_004",
+            "role": "Data Analyst",
+            "ats_score": 47.78,
+            "component_scores": {
+                "skill_match": 40.00000000000001,
+                "experience_relevance": 60.22222222222222,
+                "education_alignment": 10.0,
+                "semantic_similarity": 62.908927798271186
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_004",
+            "role": "Data Analyst",
+            "ats_score": 43.3,
+            "component_scores": {
+                "skill_match": 28.000000000000004,
+                "experience_relevance": 56.222222222222214,
+                "education_alignment": 50.0,
+                "semantic_similarity": 52.181096374988556
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        }
+    ]
+}

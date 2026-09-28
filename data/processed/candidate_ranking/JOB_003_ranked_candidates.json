@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_003",
+    "role": "Machine Learning Engineer",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 0,
+        "REVIEW": 1,
+        "REJECT": 3
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_003",
+            "role": "Machine Learning Engineer",
+            "ats_score": 69.13,
+            "component_scores": {
+                "skill_match": 67.22222222222223,
+                "experience_relevance": 76.11111111111111,
+                "education_alignment": 80.0,
+                "semantic_similarity": 62.61766642332076
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_003",
+            "role": "Machine Learning Engineer",
+            "ats_score": 46.38,
+            "component_scores": {
+                "skill_match": 31.666666666666664,
+                "experience_relevance": 56.94444444444444,
+                "education_alignment": 80.0,
+                "semantic_similarity": 50.97902566194534
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_003",
+            "role": "Machine Learning Engineer",
+            "ats_score": 32.32,
+            "component_scores": {
+                "skill_match": 17.77777777777778,
+                "experience_relevance": 56.111111111111114,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 40.40161669254303
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_003",
+            "role": "Machine Learning Engineer",
+            "ats_score": 29.89,
+            "component_scores": {
+                "skill_match": 17.77777777777778,
+                "experience_relevance": 53.05555555555556,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 33.11563014984131
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        }
+    ]
+}

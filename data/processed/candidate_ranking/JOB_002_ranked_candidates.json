@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_002",
+    "role": "Software Engineer",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 1,
+        "REVIEW": 3,
+        "REJECT": 0
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_002",
+            "role": "Software Engineer",
+            "ats_score": 84.8,
+            "component_scores": {
+                "skill_match": 95.0,
+                "experience_relevance": 90.0,
+                "education_alignment": 80.0,
+                "semantic_similarity": 65.19829519093037
+            },
+            "decision": "SHORTLIST",
+            "decision_reason": "ATS score meets or exceeds the configured shortlisting threshold."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_002",
+            "role": "Software Engineer",
+            "ats_score": 68.14,
+            "component_scores": {
+                "skill_match": 85.00000000000001,
+                "experience_relevance": 66.66666666666666,
+                "education_alignment": 80.0,
+                "semantic_similarity": 37.89471447467804
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_002",
+            "role": "Software Engineer",
+            "ats_score": 53.52,
+            "component_scores": {
+                "skill_match": 58.333333333333336,
+                "experience_relevance": 66.66666666666666,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 42.08118747919798
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_002",
+            "role": "Software Engineer",
+            "ats_score": 50.92,
+            "component_scores": {
+                "skill_match": 58.333333333333336,
+                "experience_relevance": 58.333333333333336,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 40.0322687625885
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "job_id": "JOB_001",
+    "role": "Data Scientist",
+    "candidate_count": 4,
+    "decision_summary": {
+        "SHORTLIST": 0,
+        "REVIEW": 2,
+        "REJECT": 2
+    },
+    "ranked_candidates": [
+        {
+            "rank": 1,
+            "candidate_id": "CAND_003",
+            "job_id": "JOB_001",
+            "role": "Data Scientist",
+            "ats_score": 68.53,
+            "component_scores": {
+                "skill_match": 73.33333333333334,
+                "experience_relevance": 56.42857142857143,
+                "education_alignment": 80.0,
+                "semantic_similarity": 63.63129407167435
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 2,
+            "candidate_id": "CAND_002",
+            "job_id": "JOB_001",
+            "role": "Data Scientist",
+            "ats_score": 50.4,
+            "component_scores": {
+                "skill_match": 33.333333333333336,
+                "experience_relevance": 60.357142857142854,
+                "education_alignment": 80.0,
+                "semantic_similarity": 51.96177363395691
+            },
+            "decision": "REVIEW",
+            "decision_reason": "ATS score falls within the configured manual review range."
+        },
+        {
+            "rank": 3,
+            "candidate_id": "CAND_001",
+            "job_id": "JOB_001",
+            "role": "Data Scientist",
+            "ats_score": 45.51,
+            "component_scores": {
+                "skill_match": 23.333333333333332,
+                "experience_relevance": 53.92857142857142,
+                "education_alignment": 80.0,
+                "semantic_similarity": 53.54455001652241
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        },
+        {
+            "rank": 4,
+            "candidate_id": "CAND_004",
+            "job_id": "JOB_001",
+            "role": "Data Scientist",
+            "ats_score": 35.38,
+            "component_scores": {
+                "skill_match": 23.333333333333332,
+                "experience_relevance": 53.92857142857142,
+                "education_alignment": 30.000000000000004,
+                "semantic_similarity": 43.03051322698593
+            },
+            "decision": "REJECT",
+            "decision_reason": "ATS score is below the configured review threshold."
+        }
+    ]
+}
