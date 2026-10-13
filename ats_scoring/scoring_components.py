@@ -1,4 +1,4 @@
-"""
+﻿"""
 ATS Scoring Components.
 
 Contains the individual scoring components used by the
@@ -809,6 +809,8 @@ class ScoringComponents:
                     or "m.e"
                     in candidate_degree
                     or candidate_degree == "me"
+                    or "m.sc" in candidate_degree
+                    or "msc" in candidate_degree
                 )
             ):
 
