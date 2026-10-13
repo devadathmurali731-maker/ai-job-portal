@@ -1,0 +1,218 @@
+{
+  "benchmark_version": "day17_benchmark_v1",
+  "candidate": {
+    "resume_id": "resume_008",
+    "candidate_name": "Sneha Kapoor",
+    "source_file": "resume_008_marketing_specialist.txt",
+    "role_category": "Non-Technical"
+  },
+  "job": {
+    "job_id": "jd_004_data_analyst",
+    "role": "Data Analyst",
+    "source_file": "jd_004_data_analyst.json"
+  },
+  "input_extraction": {
+    "skills_count": 20,
+    "skills": [
+      {
+        "skill": "Digital Marketing",
+        "confidence": 1.0
+      },
+      {
+        "skill": "SEO",
+        "confidence": 1.0
+      },
+      {
+        "skill": "SEM",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Social Media Marketing",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Email Marketing",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Content Marketing",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Campaign Management",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Google Analytics",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Marketing Analytics",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power BI",
+        "confidence": 1.0
+      },
+      {
+        "skill": "A/B Testing",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Google Ads",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Meta Ads",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Google Search Console",
+        "confidence": 1.0
+      },
+      {
+        "skill": "HubSpot",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Communication",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Creativity",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Presentation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Analytical Thinking",
+        "confidence": 1.0
+      }
+    ],
+    "experience_years": 3.0,
+    "job_title": "Marketing Specialist",
+    "education": [
+      {
+        "degree_type": "MBA",
+        "field_of_study": "Marketing"
+      }
+    ],
+    "semantic_similarity_status": "unavailable_not_reused"
+  },
+  "score_result": {
+    "candidate_id": "resume_008",
+    "job_id": "jd_004_data_analyst",
+    "role": "Data Analyst",
+    "component_scores": {
+      "skill_match": 16.000000000000004,
+      "experience_relevance": 55.111111111111114,
+      "education_alignment": 10.0,
+      "semantic_similarity": null
+    },
+    "original_weights": {
+      "skill_match": 0.4,
+      "experience_relevance": 0.25,
+      "education_alignment": 0.1,
+      "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+      "skill_match": 0.5333333333333333,
+      "experience_relevance": 0.3333333333333333,
+      "education_alignment": 0.13333333333333333,
+      "semantic_similarity": 0.0
+    },
+    "weighted_contributions": {
+      "skill_match": 8.5333,
+      "experience_relevance": 18.3704,
+      "education_alignment": 1.3333,
+      "semantic_similarity": 0.0
+    },
+    "final_ats_score": 28.24,
+    "available_components": [
+      "skill_match",
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "missing_components": [
+      "semantic_similarity"
+    ],
+    "component_details": {
+      "skill_match": {
+        "available": true,
+        "score": 16.000000000000004,
+        "required_score": 20.0,
+        "preferred_score": 0.0,
+        "required_matched": [
+          {
+            "skill": "Power BI",
+            "resume_skill": "Power BI",
+            "confidence": 1.0
+          }
+        ],
+        "required_missing": [
+          "SQL",
+          "Microsoft Excel",
+          "Data Analysis",
+          "Data Visualization"
+        ],
+        "preferred_matched": [],
+        "preferred_missing": [
+          "Python",
+          "SQL",
+          "PostgreSQL",
+          "Tableau",
+          "Pandas"
+        ]
+      },
+      "experience_relevance": {
+        "available": true,
+        "score": 55.111111111111114,
+        "candidate_experience_years": 3.0,
+        "minimum_required_years": 1,
+        "maximum_required_years": 3,
+        "experience_range_fit": 100.0,
+        "role_relevance": 10.222222222222225,
+        "title_match": false,
+        "matched_experience_keywords": [
+          "power bi"
+        ],
+        "required_experience_keywords": [
+          "sql",
+          "power bi",
+          "microsoft excel",
+          "data analysis",
+          "data visualization"
+        ],
+        "matched_required_experience_keywords": [
+          "power bi"
+        ]
+      },
+      "education_alignment": {
+        "available": true,
+        "score": 10.0,
+        "degree_score": 20.0,
+        "required_degree_score": 0.0,
+        "preferred_degree_score": 100.0,
+        "field_relevance_score": 0.0,
+        "matched_required_degrees": [],
+        "missing_required_degrees": [
+          "Bachelor's degree"
+        ],
+        "matched_preferred_degrees": [],
+        "missing_preferred_degrees": [],
+        "matched_fields": []
+      },
+      "semantic_similarity": {
+        "available": false,
+        "score": null,
+        "reason": "Semantic similarity data is unavailable."
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "benchmark_version": "day17_benchmark_v1",
+  "candidate": {
+    "resume_id": "resume_009",
+    "candidate_name": "Mohammed Faisal",
+    "source_file": "resume_009_sales_executive.txt",
+    "role_category": "Non-Technical"
+  },
+  "job": {
+    "job_id": "jd_003_ml_engineer",
+    "role": "Machine Learning Engineer",
+    "source_file": "jd_003_ml_engineer.json"
+  },
+  "input_extraction": {
+    "skills_count": 17,
+    "skills": [
+      {
+        "skill": "B2B Sales",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Lead Generation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Development",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Account Management",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Sales Negotiation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Customer Relationship Management",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Client Acquisition",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Sales Planning",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Salesforce",
+        "confidence": 1.0
+      },
+      {
+        "skill": "HubSpot",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Microsoft Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "CRM Systems",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Communication",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Negotiation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Presentation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Relationship Management",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Problem Solving",
+        "confidence": 1.0
+      }
+    ],
+    "experience_years": 4.0,
+    "job_title": "Sales Executive",
+    "education": [
+      {
+        "degree_type": "BBA",
+        "field_of_study": "Business Administration"
+      }
+    ],
+    "semantic_similarity_status": "unavailable_not_reused"
+  },
+  "score_result": {
+    "candidate_id": "resume_009",
+    "job_id": "jd_003_ml_engineer",
+    "role": "Machine Learning Engineer",
+    "component_scores": {
+      "skill_match": 0.0,
+      "experience_relevance": 50.0,
+      "education_alignment": 10.0,
+      "semantic_similarity": null
+    },
+    "original_weights": {
+      "skill_match": 0.45,
+      "experience_relevance": 0.2,
+      "education_alignment": 0.1,
+      "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+      "skill_match": 0.6,
+      "experience_relevance": 0.26666666666666666,
+      "education_alignment": 0.13333333333333333,
+      "semantic_similarity": 0.0
+    },
+    "weighted_contributions": {
+      "skill_match": 0.0,
+      "experience_relevance": 13.3333,
+      "education_alignment": 1.3333,
+      "semantic_similarity": 0.0
+    },
+    "final_ats_score": 14.67,
+    "available_components": [
+      "skill_match",
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "missing_components": [
+      "semantic_similarity"
+    ],
+    "component_details": {
+      "skill_match": {
+        "available": true,
+        "score": 0.0,
+        "required_score": 0.0,
+        "preferred_score": 0.0,
+        "required_matched": [],
+        "required_missing": [
+          "Python",
+          "SQL",
+          "Machine Learning",
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn",
+          "Pandas",
+          "NumPy",
+          "Git"
+        ],
+        "preferred_matched": [],
+        "preferred_missing": [
+          "Deep Learning",
+          "AWS",
+          "Docker",
+          "Machine Learning"
+        ]
+      },
+      "experience_relevance": {
+        "available": true,
+        "score": 50.0,
+        "candidate_experience_years": 4.0,
+        "minimum_required_years": 2,
+        "maximum_required_years": 5,
+        "experience_range_fit": 100.0,
+        "role_relevance": 0.0,
+        "title_match": false,
+        "matched_experience_keywords": [],
+        "required_experience_keywords": [
+          "python",
+          "sql",
+          "machine learning",
+          "tensorflow",
+          "pytorch",
+          "scikit learn",
+          "pandas",
+          "numpy",
+          "git"
+        ],
+        "matched_required_experience_keywords": []
+      },
+      "education_alignment": {
+        "available": true,
+        "score": 10.0,
+        "degree_score": 20.0,
+        "required_degree_score": 0.0,
+        "preferred_degree_score": 100.0,
+        "field_relevance_score": 0.0,
+        "matched_required_degrees": [],
+        "missing_required_degrees": [
+          "Bachelor's degree",
+          "Master's degree"
+        ],
+        "matched_preferred_degrees": [],
+        "missing_preferred_degrees": [],
+        "matched_fields": []
+      },
+      "semantic_similarity": {
+        "available": false,
+        "score": null,
+        "reason": "Semantic similarity data is unavailable."
+      }
+    }
+  }
+}

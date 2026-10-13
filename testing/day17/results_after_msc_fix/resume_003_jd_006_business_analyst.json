@@ -1,0 +1,219 @@
+{
+  "benchmark_version": "day17_benchmark_v1",
+  "candidate": {
+    "resume_id": "resume_003",
+    "candidate_name": "Rahul Menon",
+    "source_file": "resume_003_data_analyst.txt",
+    "role_category": "Technical"
+  },
+  "job": {
+    "job_id": "jd_006_business_analyst",
+    "role": "Business Analyst",
+    "source_file": "jd_006_business_analyst.json"
+  },
+  "input_extraction": {
+    "skills_count": 19,
+    "skills": [
+      {
+        "skill": "Python",
+        "confidence": 1.0
+      },
+      {
+        "skill": "SQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Pandas",
+        "confidence": 1.0
+      },
+      {
+        "skill": "NumPy",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Statistical Analysis",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Data Cleaning",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power BI",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Tableau",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Matplotlib",
+        "confidence": 1.0
+      },
+      {
+        "skill": "MySQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "PostgreSQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Data Modeling",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Reporting",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Dashboard Development",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Microsoft Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Pivot Tables",
+        "confidence": 1.0
+      },
+      {
+        "skill": "VLOOKUP",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power Query",
+        "confidence": 1.0
+      }
+    ],
+    "experience_years": 2.0,
+    "job_title": "Data Analyst",
+    "education": [
+      {
+        "degree_type": "B.Com",
+        "field_of_study": "Finance and Accounting"
+      }
+    ],
+    "semantic_similarity_status": "unavailable_not_reused"
+  },
+  "score_result": {
+    "candidate_id": "resume_003",
+    "job_id": "jd_006_business_analyst",
+    "role": "Business Analyst",
+    "component_scores": {
+      "skill_match": 60.00000000000001,
+      "experience_relevance": 64.0,
+      "education_alignment": 10.0,
+      "semantic_similarity": null
+    },
+    "original_weights": {
+      "skill_match": 0.35,
+      "experience_relevance": 0.25,
+      "education_alignment": 0.15,
+      "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+      "skill_match": 0.4666666666666666,
+      "experience_relevance": 0.3333333333333333,
+      "education_alignment": 0.19999999999999998,
+      "semantic_similarity": 0.0
+    },
+    "weighted_contributions": {
+      "skill_match": 28.0,
+      "experience_relevance": 21.3333,
+      "education_alignment": 2.0,
+      "semantic_similarity": 0.0
+    },
+    "final_ats_score": 51.33,
+    "available_components": [
+      "skill_match",
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "missing_components": [
+      "semantic_similarity"
+    ],
+    "component_details": {
+      "skill_match": {
+        "available": true,
+        "score": 60.00000000000001,
+        "required_score": 75.0,
+        "preferred_score": 0.0,
+        "required_matched": [
+          {
+            "skill": "SQL",
+            "resume_skill": "SQL",
+            "confidence": 1.0
+          },
+          {
+            "skill": "Power BI",
+            "resume_skill": "Power BI",
+            "confidence": 1.0
+          },
+          {
+            "skill": "Microsoft Excel",
+            "resume_skill": "Microsoft Excel",
+            "confidence": 1.0
+          }
+        ],
+        "required_missing": [
+          "Communication"
+        ],
+        "preferred_matched": [],
+        "preferred_missing": [
+          "Data Visualization"
+        ]
+      },
+      "experience_relevance": {
+        "available": true,
+        "score": 64.0,
+        "candidate_experience_years": 2.0,
+        "minimum_required_years": 2,
+        "maximum_required_years": 5,
+        "experience_range_fit": 100.0,
+        "role_relevance": 28.000000000000004,
+        "title_match": false,
+        "matched_experience_keywords": [
+          "sql",
+          "power bi"
+        ],
+        "required_experience_keywords": [
+          "sql",
+          "power bi",
+          "microsoft excel",
+          "communication"
+        ],
+        "matched_required_experience_keywords": [
+          "sql",
+          "power bi"
+        ]
+      },
+      "education_alignment": {
+        "available": true,
+        "score": 10.0,
+        "degree_score": 20.0,
+        "required_degree_score": 0.0,
+        "preferred_degree_score": 100.0,
+        "field_relevance_score": 0.0,
+        "matched_required_degrees": [],
+        "missing_required_degrees": [
+          "Bachelor's degree",
+          "Master's degree"
+        ],
+        "matched_preferred_degrees": [],
+        "missing_preferred_degrees": [],
+        "matched_fields": []
+      },
+      "semantic_similarity": {
+        "available": false,
+        "score": null,
+        "reason": "Semantic similarity data is unavailable."
+      }
+    }
+  }
+}

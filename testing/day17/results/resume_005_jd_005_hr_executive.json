@@ -1,0 +1,222 @@
+{
+  "benchmark_version": "day17_benchmark_v1",
+  "candidate": {
+    "resume_id": "resume_005",
+    "candidate_name": "Neha Thomas",
+    "source_file": "resume_005_business_analyst.txt",
+    "role_category": "Business"
+  },
+  "job": {
+    "job_id": "jd_005_hr_executive",
+    "role": "HR Executive",
+    "source_file": "jd_005_hr_executive.json"
+  },
+  "input_extraction": {
+    "skills_count": 22,
+    "skills": [
+      {
+        "skill": "Requirements Gathering",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Process Analysis",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Stakeholder Management",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Documentation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Gap Analysis",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Process Improvement",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Functional Requirements",
+        "confidence": 1.0
+      },
+      {
+        "skill": "User Stories",
+        "confidence": 1.0
+      },
+      {
+        "skill": "SQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Microsoft Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power BI",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Data Visualization",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Statistical Analysis",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Agile",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Scrum",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Jira",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Confluence",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Microsoft PowerPoint",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Reporting",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Presentation",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Communication",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Problem Solving",
+        "confidence": 1.0
+      }
+    ],
+    "experience_years": 4.0,
+    "job_title": "Business Analyst",
+    "education": [
+      {
+        "degree_type": "MBA",
+        "field_of_study": "Business Analytics"
+      }
+    ],
+    "semantic_similarity_status": "unavailable_not_reused"
+  },
+  "score_result": {
+    "candidate_id": "resume_005",
+    "job_id": "jd_005_hr_executive",
+    "role": "HR Executive",
+    "component_scores": {
+      "skill_match": 40.0,
+      "experience_relevance": 50.0,
+      "education_alignment": 40.0,
+      "semantic_similarity": null
+    },
+    "original_weights": {
+      "skill_match": 0.35,
+      "experience_relevance": 0.3,
+      "education_alignment": 0.2,
+      "semantic_similarity": 0.15
+    },
+    "adjusted_weights": {
+      "skill_match": 0.411764705882353,
+      "experience_relevance": 0.35294117647058826,
+      "education_alignment": 0.23529411764705888,
+      "semantic_similarity": 0.0
+    },
+    "weighted_contributions": {
+      "skill_match": 16.4706,
+      "experience_relevance": 17.6471,
+      "education_alignment": 9.4118,
+      "semantic_similarity": 0.0
+    },
+    "final_ats_score": 43.53,
+    "available_components": [
+      "skill_match",
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "missing_components": [
+      "semantic_similarity"
+    ],
+    "component_details": {
+      "skill_match": {
+        "available": true,
+        "score": 40.0,
+        "required_score": 50.0,
+        "preferred_score": 0.0,
+        "required_matched": [
+          {
+            "skill": "Microsoft Excel",
+            "resume_skill": "Microsoft Excel",
+            "confidence": 1.0
+          },
+          {
+            "skill": "Communication",
+            "resume_skill": "Communication",
+            "confidence": 1.0
+          }
+        ],
+        "required_missing": [
+          "Recruitment",
+          "Talent Acquisition"
+        ],
+        "preferred_matched": [],
+        "preferred_missing": [
+          "Payroll"
+        ]
+      },
+      "experience_relevance": {
+        "available": true,
+        "score": 50.0,
+        "candidate_experience_years": 4.0,
+        "minimum_required_years": 2,
+        "maximum_required_years": 4,
+        "experience_range_fit": 100.0,
+        "role_relevance": 0.0,
+        "title_match": false,
+        "matched_experience_keywords": [],
+        "required_experience_keywords": [
+          "microsoft excel",
+          "communication",
+          "recruitment",
+          "talent acquisition"
+        ],
+        "matched_required_experience_keywords": []
+      },
+      "education_alignment": {
+        "available": true,
+        "score": 40.0,
+        "degree_score": 80.0,
+        "required_degree_score": 100.0,
+        "preferred_degree_score": 0.0,
+        "field_relevance_score": 0.0,
+        "matched_required_degrees": [
+          "MBA"
+        ],
+        "missing_required_degrees": [],
+        "matched_preferred_degrees": [],
+        "missing_preferred_degrees": [
+          "Bachelor's degree"
+        ],
+        "matched_fields": []
+      },
+      "semantic_similarity": {
+        "available": false,
+        "score": null,
+        "reason": "Semantic similarity data is unavailable."
+      }
+    }
+  }
+}

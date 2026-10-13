@@ -1,0 +1,11 @@
+﻿resume_id,candidate_name,source_file,primary_role,role_category
+resume_001,Arun Kumar,resume_001_data_scientist.txt,Data Scientist,Technical
+resume_002,Priya Nair,resume_002_software_engineer.txt,Software Engineer,Technical
+resume_003,Rahul Menon,resume_003_data_analyst.txt,Data Analyst,Technical
+resume_004,Aditya Sharma,resume_004_ml_engineer.txt,Machine Learning Engineer,Technical
+resume_005,Neha Thomas,resume_005_business_analyst.txt,Business Analyst,Business
+resume_006,Anjali Joseph,resume_006_hr_executive.txt,HR Executive,Non-Technical
+resume_007,Vishnu Raj,resume_007_financial_analyst.txt,Financial Analyst,Business
+resume_008,Sneha Kapoor,resume_008_marketing_specialist.txt,Marketing Specialist,Non-Technical
+resume_009,Mohammed Faisal,resume_009_sales_executive.txt,Sales Executive,Non-Technical
+resume_010,Karthik Suresh,resume_010_project_manager.txt,Project Manager,Business

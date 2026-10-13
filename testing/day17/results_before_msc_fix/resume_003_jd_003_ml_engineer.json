@@ -1,0 +1,236 @@
+{
+  "benchmark_version": "day17_benchmark_v1",
+  "candidate": {
+    "resume_id": "resume_003",
+    "candidate_name": "Rahul Menon",
+    "source_file": "resume_003_data_analyst.txt",
+    "role_category": "Technical"
+  },
+  "job": {
+    "job_id": "jd_003_ml_engineer",
+    "role": "Machine Learning Engineer",
+    "source_file": "jd_003_ml_engineer.json"
+  },
+  "input_extraction": {
+    "skills_count": 19,
+    "skills": [
+      {
+        "skill": "Python",
+        "confidence": 1.0
+      },
+      {
+        "skill": "SQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Pandas",
+        "confidence": 1.0
+      },
+      {
+        "skill": "NumPy",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Statistical Analysis",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Data Cleaning",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power BI",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Tableau",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Matplotlib",
+        "confidence": 1.0
+      },
+      {
+        "skill": "MySQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "PostgreSQL",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Data Modeling",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Business Reporting",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Dashboard Development",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Microsoft Excel",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Pivot Tables",
+        "confidence": 1.0
+      },
+      {
+        "skill": "VLOOKUP",
+        "confidence": 1.0
+      },
+      {
+        "skill": "Power Query",
+        "confidence": 1.0
+      }
+    ],
+    "experience_years": 2.0,
+    "job_title": "Data Analyst",
+    "education": [
+      {
+        "degree_type": "B.Com",
+        "field_of_study": "Finance and Accounting"
+      }
+    ],
+    "semantic_similarity_status": "unavailable_not_reused"
+  },
+  "score_result": {
+    "candidate_id": "resume_003",
+    "job_id": "jd_003_ml_engineer",
+    "role": "Machine Learning Engineer",
+    "component_scores": {
+      "skill_match": 35.55555555555556,
+      "experience_relevance": 56.111111111111114,
+      "education_alignment": 10.0,
+      "semantic_similarity": null
+    },
+    "original_weights": {
+      "skill_match": 0.45,
+      "experience_relevance": 0.2,
+      "education_alignment": 0.1,
+      "semantic_similarity": 0.25
+    },
+    "adjusted_weights": {
+      "skill_match": 0.6,
+      "experience_relevance": 0.26666666666666666,
+      "education_alignment": 0.13333333333333333,
+      "semantic_similarity": 0.0
+    },
+    "weighted_contributions": {
+      "skill_match": 21.3333,
+      "experience_relevance": 14.963,
+      "education_alignment": 1.3333,
+      "semantic_similarity": 0.0
+    },
+    "final_ats_score": 37.63,
+    "available_components": [
+      "skill_match",
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "missing_components": [
+      "semantic_similarity"
+    ],
+    "component_details": {
+      "skill_match": {
+        "available": true,
+        "score": 35.55555555555556,
+        "required_score": 44.44444444444444,
+        "preferred_score": 0.0,
+        "required_matched": [
+          {
+            "skill": "Python",
+            "resume_skill": "Python",
+            "confidence": 1.0
+          },
+          {
+            "skill": "SQL",
+            "resume_skill": "SQL",
+            "confidence": 1.0
+          },
+          {
+            "skill": "Pandas",
+            "resume_skill": "Pandas",
+            "confidence": 1.0
+          },
+          {
+            "skill": "NumPy",
+            "resume_skill": "NumPy",
+            "confidence": 1.0
+          }
+        ],
+        "required_missing": [
+          "Machine Learning",
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn",
+          "Git"
+        ],
+        "preferred_matched": [],
+        "preferred_missing": [
+          "Deep Learning",
+          "AWS",
+          "Docker",
+          "Machine Learning"
+        ]
+      },
+      "experience_relevance": {
+        "available": true,
+        "score": 56.111111111111114,
+        "candidate_experience_years": 2.0,
+        "minimum_required_years": 2,
+        "maximum_required_years": 5,
+        "experience_range_fit": 100.0,
+        "role_relevance": 12.222222222222223,
+        "title_match": false,
+        "matched_experience_keywords": [
+          "python",
+          "sql"
+        ],
+        "required_experience_keywords": [
+          "python",
+          "sql",
+          "machine learning",
+          "tensorflow",
+          "pytorch",
+          "scikit learn",
+          "pandas",
+          "numpy",
+          "git"
+        ],
+        "matched_required_experience_keywords": [
+          "python",
+          "sql"
+        ]
+      },
+      "education_alignment": {
+        "available": true,
+        "score": 10.0,
+        "degree_score": 20.0,
+        "required_degree_score": 0.0,
+        "preferred_degree_score": 100.0,
+        "field_relevance_score": 0.0,
+        "matched_required_degrees": [],
+        "missing_required_degrees": [
+          "Bachelor's degree",
+          "Master's degree"
+        ],
+        "matched_preferred_degrees": [],
+        "missing_preferred_degrees": [],
+        "matched_fields": []
+      },
+      "semantic_similarity": {
+        "available": false,
+        "score": null,
+        "reason": "Semantic similarity data is unavailable."
+      }
+    }
+  }
+}
