@@ -1,0 +1,32 @@
+{
+  "candidate_id": "CAND_004",
+  "job_id": "JOB_006",
+  "role": "Business Analyst",
+  "original_ats_score": 47.48,
+  "fairness_resume": {
+    "source": "resume_004_sections.json",
+    "normalized": true,
+    "personal_attributes_masked": true,
+    "sections_available": [
+      "summary",
+      "work_experience",
+      "projects",
+      "education",
+      "certifications"
+    ]
+  },
+  "fair_scoring": {
+    "keyword_score": 40.0,
+    "semantic_score": 51.92,
+    "keyword_weight": 0.6,
+    "semantic_weight": 0.4,
+    "fair_skill_score": 44.77,
+    "normalized_score": 44.77
+  },
+  "fairness_methods": {
+    "resume_normalization": true,
+    "personal_attribute_masking": true,
+    "keyword_semantic_balancing": true,
+    "score_normalization": true
+  }
+}

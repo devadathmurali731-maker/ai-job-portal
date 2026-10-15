@@ -1,0 +1,31 @@
+{
+  "candidate_id": "CAND_002",
+  "job_id": "JOB_001",
+  "role": "Data Scientist",
+  "original_ats_score": 50.4,
+  "fairness_resume": {
+    "source": "resume_002_sections.json",
+    "normalized": true,
+    "personal_attributes_masked": true,
+    "sections_available": [
+      "summary",
+      "work_experience",
+      "education",
+      "certifications"
+    ]
+  },
+  "fair_scoring": {
+    "keyword_score": 33.33,
+    "semantic_score": 51.96,
+    "keyword_weight": 0.6,
+    "semantic_weight": 0.4,
+    "fair_skill_score": 40.78,
+    "normalized_score": 40.78
+  },
+  "fairness_methods": {
+    "resume_normalization": true,
+    "personal_attribute_masking": true,
+    "keyword_semantic_balancing": true,
+    "score_normalization": true
+  }
+}

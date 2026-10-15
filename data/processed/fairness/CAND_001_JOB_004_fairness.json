@@ -1,0 +1,32 @@
+{
+  "candidate_id": "CAND_001",
+  "job_id": "JOB_004",
+  "role": "Data Analyst",
+  "original_ats_score": 43.3,
+  "fairness_resume": {
+    "source": "resume_001_sections.json",
+    "normalized": true,
+    "personal_attributes_masked": true,
+    "sections_available": [
+      "summary",
+      "skills",
+      "work_experience",
+      "education",
+      "certifications"
+    ]
+  },
+  "fair_scoring": {
+    "keyword_score": 28.0,
+    "semantic_score": 52.18,
+    "keyword_weight": 0.6,
+    "semantic_weight": 0.4,
+    "fair_skill_score": 37.67,
+    "normalized_score": 37.67
+  },
+  "fairness_methods": {
+    "resume_normalization": true,
+    "personal_attribute_masking": true,
+    "keyword_semantic_balancing": true,
+    "score_normalization": true
+  }
+}
