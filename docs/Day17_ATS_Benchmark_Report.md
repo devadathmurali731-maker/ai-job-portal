@@ -88,3 +88,85 @@ The M.Sc. correction also has a dedicated regression test in the ATS scoring tes
 The Day 17 benchmark successfully evaluated 60 candidate-job pairs across 10 candidate resumes and 6 job profiles. All pairs produced scores without recorded errors or missing values. A targeted correction enabled M.Sc./MSc to match a master's-degree requirement, and the before-versus-after comparison found 4 changed scores and 56 unchanged scores.
 
 The benchmark establishes execution completeness and provides regression evidence for the degree-matching fix. Further validation with independently reviewed candidate-job relevance labels is needed before making claims about ATS accuracy or hiring effectiveness.
+
+## 9. Human-Reviewed Relevance Evaluation
+
+### 9.1 Review Dataset
+
+- Candidate resumes: 10
+- Job profiles: 6
+- Candidate-job pairs reviewed: 60
+- Completed reviews: 60
+- Pending reviews: 0
+- Missing relevance labels: 0
+
+Each candidate-job pair received a binary human relevance label: Relevant or Not Relevant. The review rationale and mismatch notes document the evidence supporting each judgment.
+
+### 9.2 Evaluation Method
+
+For binary evaluation, the ATS score was converted into a prediction using a fixed threshold:
+
+- ATS score >= 70: Predicted Relevant
+- ATS score < 70: Predicted Not Relevant
+
+The predicted label was compared with the human relevance label. The existing ATS decision bands (Shortlist, Review, and Not Shortlisted) remain separate from this binary evaluation rule.
+
+### 9.3 Confusion Matrix
+
+| Outcome | Count |
+|---|---:|
+| True Positives (TP) | 5 |
+| False Positives (FP) | 0 |
+| True Negatives (TN) | 44 |
+| False Negatives (FN) | 11 |
+| Total | 60 |
+
+### 9.4 Classification Metrics
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 81.67% |
+| Precision | 100.00% |
+| Recall | 31.25% |
+| F1 Score | 47.62% |
+
+Definitions:
+
+- Accuracy = (TP + TN) / Total
+- Precision = TP / (TP + FP)
+- Recall = TP / (TP + FN)
+- F1 Score = 2 × Precision × Recall / (Precision + Recall)
+
+### 9.5 Interpretation
+
+The ATS correctly classified 49 of the 60 candidate-job pairs at the threshold of 70, producing an accuracy of 81.67%.
+
+Precision was 100.00% because none of the five pairs predicted as Relevant was labelled Not Relevant by the reviewer. However, recall was 31.25%: the ATS identified 5 of the 16 human-labelled relevant pairs and missed 11.
+
+The results suggest that the current threshold is conservative on this sample. The high accuracy must be interpreted alongside recall and the distribution of labels: 16 pairs were labelled Relevant and 44 were labelled Not Relevant.
+
+### 9.6 Limitations and Threats to Validity
+
+- Human relevance labels involve judgment and may differ between reviewers.
+- The review CSV contains ATS scores, so this review process was not a fully blinded assessment. Future evaluations should hide ATS scores and predictions from reviewers until labels are finalized.
+- The benchmark contains 60 pairs drawn from only 10 resumes and 6 job profiles. It is a limited evaluation sample and may not represent real-world recruitment data.
+- The fixed threshold of 70 is an evaluation rule, not a validated optimal threshold.
+- Accuracy, precision, recall, and F1 measure binary classification against the current labels; they do not directly evaluate ranking quality, fairness, or hiring outcomes.
+- The results should not be generalized to all candidates or job markets without a larger, independently reviewed test set.
+
+### 9.7 Recommended Next Steps
+
+1. Conduct a blinded review of candidate-job pairs without displaying ATS scores or decisions.
+2. Have a second reviewer assess a subset of pairs and resolve disagreements using a documented rubric.
+3. Investigate the 11 false negatives to identify relevant candidates receiving scores below 70.
+4. Evaluate alternative thresholds on a development set, then confirm the selected threshold on a separate held-out set.
+5. Report ranking metrics such as Precision@K or NDCG only after defining an appropriate ranked-candidate evaluation protocol.
+6. Retain the human-review CSV, benchmark outputs, and evaluation script for reproducibility.
+
+### 9.8 Human-Review Evaluation Conclusion
+
+The completed review provides an initial relevance-based evaluation of the ATS across 60 candidate-job pairs. At a score threshold of 70, the system achieved 81.67% accuracy, 100.00% precision, 31.25% recall, and a 47.62% F1 score against the current human labels.
+
+The principal observed limitation is low recall, with 11 human-labelled relevant pairs missed by the threshold. These findings are preliminary and should be validated through blinded, multi-reviewer assessment and a broader test set before making claims about real-world ATS performance.
+
+
