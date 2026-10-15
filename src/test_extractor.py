@@ -74,3 +74,11 @@ def test_processed_directory_exists():
 
     assert PROCESSED_DIR.exists()
     assert PROCESSED_DIR.is_dir()
+
+def test_normalize_white_circle_bullet():
+    white_circle = chr(0x25CB)
+    text = white_circle + " Example resume item"
+
+    result = normalize_bullets(text)
+
+    assert result == "- Example resume item"

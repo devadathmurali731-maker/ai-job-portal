@@ -1,0 +1,268 @@
+{
+  "report_type": "Day 18 performance baseline",
+  "created_utc": "2026-10-15T10:20:44.562400+00:00",
+  "project_root": "C:\\Users\\Devadath\\OneDrive\\Desktop\\DATA SCIENTIST\\ai-job-portal",
+  "notes": [
+    "Day 17 benchmark was not executed.",
+    "Times are local-machine measurements, not production SLA measurements.",
+    "Python tracemalloc is not used as a substitute for total native model memory."
+  ],
+  "resume_extraction": [
+    {
+      "file": "data\\raw_resumes\\resume_001.docx",
+      "size_bytes": 14184,
+      "status": "success",
+      "extraction_timing": {
+        "runs": 5,
+        "mean_ms": 7.077,
+        "median_ms": 7.065,
+        "min_ms": 5.827,
+        "max_ms": 8.856
+      },
+      "normalization_timing": {
+        "runs": 5,
+        "mean_ms": 0.299,
+        "median_ms": 0.136,
+        "min_ms": 0.129,
+        "max_ms": 0.921
+      },
+      "raw_characters": 703,
+      "normalized_characters": 703
+    },
+    {
+      "file": "data\\raw_resumes\\resume_002.docx",
+      "size_bytes": 14988,
+      "status": "success",
+      "extraction_timing": {
+        "runs": 5,
+        "mean_ms": 7.761,
+        "median_ms": 7.211,
+        "min_ms": 6.987,
+        "max_ms": 8.803
+      },
+      "normalization_timing": {
+        "runs": 5,
+        "mean_ms": 0.138,
+        "median_ms": 0.131,
+        "min_ms": 0.117,
+        "max_ms": 0.194
+      },
+      "raw_characters": 875,
+      "normalized_characters": 875
+    },
+    {
+      "file": "data\\raw_resumes\\resume_003.pdf",
+      "size_bytes": 25520,
+      "status": "success",
+      "extraction_timing": {
+        "runs": 5,
+        "mean_ms": 44.436,
+        "median_ms": 39.673,
+        "min_ms": 37.195,
+        "max_ms": 63.722
+      },
+      "normalization_timing": {
+        "runs": 5,
+        "mean_ms": 0.259,
+        "median_ms": 0.262,
+        "min_ms": 0.163,
+        "max_ms": 0.36
+      },
+      "raw_characters": 1176,
+      "normalized_characters": 1160
+    },
+    {
+      "file": "data\\raw_resumes\\resume_004.pdf",
+      "size_bytes": 41005,
+      "status": "success",
+      "extraction_timing": {
+        "runs": 5,
+        "mean_ms": 65.297,
+        "median_ms": 66.384,
+        "min_ms": 55.378,
+        "max_ms": 74.627
+      },
+      "normalization_timing": {
+        "runs": 5,
+        "mean_ms": 0.227,
+        "median_ms": 0.209,
+        "min_ms": 0.164,
+        "max_ms": 0.343
+      },
+      "raw_characters": 1219,
+      "normalized_characters": 1181
+    }
+  ],
+  "ats_scoring": {
+    "status": "success",
+    "input_resume": "resume_001",
+    "input_job": "jd_001_data_scientist",
+    "role": "Data Scientist",
+    "semantic_result": null,
+    "timing": {
+      "runs": 5,
+      "mean_ms": 0.087,
+      "median_ms": 0.068,
+      "min_ms": 0.056,
+      "max_ms": 0.163
+    },
+    "sample_result_type": "dict",
+    "sample_score_result": {
+      "candidate_id": "CAND_001",
+      "job_id": "JOB_001",
+      "role": "Data Scientist",
+      "component_scores": {
+        "skill_match": 23.333333333333332,
+        "experience_relevance": 53.92857142857142,
+        "education_alignment": 80.0,
+        "semantic_similarity": null
+      },
+      "original_weights": {
+        "skill_match": 0.4,
+        "experience_relevance": 0.2,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+      },
+      "adjusted_weights": {
+        "skill_match": 0.5333333333333333,
+        "experience_relevance": 0.26666666666666666,
+        "education_alignment": 0.19999999999999996,
+        "semantic_similarity": 0.0
+      },
+      "weighted_contributions": {
+        "skill_match": 12.4444,
+        "experience_relevance": 14.381,
+        "education_alignment": 16.0,
+        "semantic_similarity": 0.0
+      },
+      "final_ats_score": 42.83,
+      "available_components": [
+        "skill_match",
+        "experience_relevance",
+        "education_alignment"
+      ],
+      "missing_components": [
+        "semantic_similarity"
+      ],
+      "component_details": {
+        "skill_match": {
+          "available": true,
+          "score": 23.333333333333332,
+          "required_score": 25.0,
+          "preferred_score": 16.666666666666664,
+          "required_matched": [
+            {
+              "skill": "Python",
+              "resume_skill": "Python",
+              "confidence": 0.99
+            },
+            {
+              "skill": "SQL",
+              "resume_skill": "SQL",
+              "confidence": 0.99
+            }
+          ],
+          "required_missing": [
+            "Machine Learning",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Statistics",
+            "Data Analysis"
+          ],
+          "preferred_matched": [
+            {
+              "skill": "Docker",
+              "resume_skill": "Docker",
+              "confidence": 0.99
+            }
+          ],
+          "preferred_missing": [
+            "Power BI",
+            "Tableau",
+            "TensorFlow",
+            "XGBoost",
+            "AWS"
+          ]
+        },
+        "experience_relevance": {
+          "available": true,
+          "score": 53.92857142857142,
+          "candidate_experience_years": 4.75,
+          "minimum_required_years": 2,
+          "maximum_required_years": 5,
+          "experience_range_fit": 100.0,
+          "role_relevance": 7.857142857142857,
+          "title_match": false,
+          "matched_experience_keywords": [
+            "sql",
+            "docker"
+          ],
+          "required_experience_keywords": [
+            "python",
+            "sql",
+            "machine learning",
+            "scikit learn",
+            "pandas",
+            "numpy",
+            "statistics",
+            "data analysis"
+          ],
+          "matched_required_experience_keywords": [
+            "sql"
+          ]
+        },
+        "education_alignment": {
+          "available": true,
+          "score": 80.0,
+          "degree_score": 60.00000000000001,
+          "required_degree_score": 50.0,
+          "preferred_degree_score": 100.0,
+          "field_relevance_score": 100.0,
+          "matched_required_degrees": [
+            "Bachelor's degree"
+          ],
+          "missing_required_degrees": [
+            "Master's degree"
+          ],
+          "matched_preferred_degrees": [],
+          "missing_preferred_degrees": [],
+          "matched_fields": [
+            "computer science"
+          ]
+        },
+        "semantic_similarity": {
+          "available": false,
+          "score": null,
+          "reason": "Semantic similarity data is unavailable."
+        }
+      }
+    }
+  },
+  "semantic_matching": {
+    "status": "success",
+    "model_name": "all-MiniLM-L6-v2",
+    "model_initialization_ms": 7380.312,
+    "single_encoding_pair": {
+      "runs": 5,
+      "mean_ms": 17.015,
+      "median_ms": 17.409,
+      "min_ms": 15.868,
+      "max_ms": 17.768
+    },
+    "batch_encoding_pair": {
+      "runs": 5,
+      "mean_ms": 12.658,
+      "median_ms": 12.763,
+      "min_ms": 12.207,
+      "max_ms": 13.154
+    },
+    "single_cosine_score": 0.8931318521499634,
+    "batch_cosine_score": 0.8931317329406738,
+    "absolute_score_difference": 1.192e-07,
+    "note": "Model initialization is timed separately. Encoding timings are warm runs on a small fixed text pair."
+  },
+  "process_memory": {
+    "status": "psutil is not installed; process RSS was not measured."
+  }
+}

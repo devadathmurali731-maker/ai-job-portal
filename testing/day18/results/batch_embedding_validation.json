@@ -1,0 +1,991 @@
+{
+  "benchmark": "Day 18 real-data batch embedding validation",
+  "model": "all-MiniLM-L6-v2",
+  "resume_count_requested": 4,
+  "jd_count_requested": 6,
+  "maximum_pairs": 24,
+  "successful_pairs": 24,
+  "successful_component_comparisons": 60,
+  "skipped_empty_components": 12,
+  "repeats_per_component": 5,
+  "average_separate_encoding_ms": 26.024741333239945,
+  "average_batch_encoding_ms": 25.437857333599823,
+  "average_speedup_percent": 2.255100222227869,
+  "maximum_component_score_difference": 2.384185791015625e-07,
+  "maximum_final_score_difference": 1.341104507446289e-07,
+  "errors": [],
+  "pairs": [
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_001_data_scientist",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.651990532875061,
+          "batch_score": 0.651990532875061,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.3412037789821625,
+          "batch_score": 0.34120380878448486,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 22.220540000125766,
+          "batch_mean_ms": 18.287919997237623,
+          "speedup_percent": 17.698129761319414
+        },
+        "experience": {
+          "separate_mean_ms": 20.871139998780563,
+          "batch_mean_ms": 21.444959996733814,
+          "speedup_percent": -2.7493466959005475
+        }
+      },
+      "separate_final_score": 0.5354455001652241,
+      "batch_final_score": 0.535445511341095,
+      "final_score_absolute_difference": 1.1175870895385742e-08
+    },
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_002_software_engineer",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.8202179074287415,
+          "batch_score": 0.8202179074287415,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.37159135937690735,
+          "batch_score": 0.37159135937690735,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.703099997946993,
+          "batch_mean_ms": 15.744979999726638,
+          "speedup_percent": 15.816201584470285
+        },
+        "experience": {
+          "separate_mean_ms": 19.40539999923203,
+          "batch_mean_ms": 18.293300000368617,
+          "speedup_percent": 5.730879028040778
+        }
+      },
+      "separate_final_score": 0.6519829519093037,
+      "batch_final_score": 0.6519829519093037,
+      "final_score_absolute_difference": 0.0
+    },
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_003_ml_engineer",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.6279072761535645,
+          "batch_score": 0.6279072761535645,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.31292855739593506,
+          "batch_score": 0.31292861700057983,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 22.53733999968972,
+          "batch_mean_ms": 17.609159997664392,
+          "speedup_percent": 21.866733173006118
+        },
+        "experience": {
+          "separate_mean_ms": 21.89102000265848,
+          "batch_mean_ms": 18.090239996672608,
+          "speedup_percent": 17.362279169834473
+        }
+      },
+      "separate_final_score": 0.5097902566194534,
+      "batch_final_score": 0.5097902789711952,
+      "final_score_absolute_difference": 2.2351741790771484e-08
+    },
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_004_data_analyst",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.6448430418968201,
+          "batch_score": 0.6448429822921753,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.3167575001716614,
+          "batch_score": 0.3167574405670166,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.862599998828955,
+          "batch_mean_ms": 13.816659999429248,
+          "speedup_percent": 26.751031139466313
+        },
+        "experience": {
+          "separate_mean_ms": 20.15580000297632,
+          "batch_mean_ms": 18.936439996468835,
+          "speedup_percent": 6.049673078356744
+        }
+      },
+      "separate_final_score": 0.5218109637498856,
+      "batch_final_score": 0.5218109041452408,
+      "final_score_absolute_difference": 5.960464477539063e-08
+    },
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_005_hr_executive",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.3170537054538727,
+          "batch_score": 0.3170536756515503,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "experience": {
+          "separate_score": 0.28521522879600525,
+          "batch_score": 0.2852151095867157,
+          "absolute_score_difference": 1.1920928955078125e-07
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.39302000007592,
+          "batch_mean_ms": 14.926980002201162,
+          "speedup_percent": 18.844322454172573
+        },
+        "experience": {
+          "separate_mean_ms": 20.360479998635128,
+          "batch_mean_ms": 21.260379999876022,
+          "speedup_percent": -4.419836866818558
+        }
+      },
+      "separate_final_score": 0.3051142767071724,
+      "batch_final_score": 0.3051142133772373,
+      "final_score_absolute_difference": 6.332993507385254e-08
+    },
+    {
+      "resume_id": "resume_001",
+      "jd_id": "jd_006_business_analyst",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.3769987225532532,
+          "batch_score": 0.3769986033439636,
+          "absolute_score_difference": 1.1920928955078125e-07
+        },
+        "experience": {
+          "separate_score": 0.28449058532714844,
+          "batch_score": 0.28449055552482605,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 19.08889999613166,
+          "batch_mean_ms": 15.610500003094785,
+          "speedup_percent": 18.222108103357275
+        },
+        "experience": {
+          "separate_mean_ms": 20.35531999426894,
+          "batch_mean_ms": 19.85632000141777,
+          "speedup_percent": 2.451447547823674
+        }
+      },
+      "separate_final_score": 0.3423081710934639,
+      "batch_final_score": 0.34230808541178703,
+      "final_score_absolute_difference": 8.568167686462402e-08
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_001_data_scientist",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.616266667842865,
+          "batch_score": 0.616266667842865,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.3585361838340759,
+          "batch_score": 0.3585361838340759,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 19.588739998289384,
+          "batch_mean_ms": 18.887679997715168,
+          "speedup_percent": 3.5788927753160102
+        },
+        "experience": {
+          "separate_mean_ms": 21.80204000324011,
+          "batch_mean_ms": 20.998620003229007,
+          "speedup_percent": 3.685068002314009
+        }
+      },
+      "separate_final_score": 0.5196177363395691,
+      "batch_final_score": 0.5196177363395691,
+      "final_score_absolute_difference": 0.0
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_002_software_engineer",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.5465039610862732,
+          "batch_score": 0.5465039014816284,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.21132506430149078,
+          "batch_score": 0.2113250195980072,
+          "absolute_score_difference": 4.470348358154297e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.336180000915192,
+          "batch_mean_ms": 12.332680003601126,
+          "speedup_percent": 32.74127979227091
+        },
+        "experience": {
+          "separate_mean_ms": 20.72057999903336,
+          "batch_mean_ms": 19.648260000394657,
+          "speedup_percent": 5.17514470487182
+        }
+      },
+      "separate_final_score": 0.4208118747919798,
+      "batch_final_score": 0.42081182077527046,
+      "final_score_absolute_difference": 5.4016709327697754e-08
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_003_ml_engineer",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.4943646788597107,
+          "batch_score": 0.4943646788597107,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.25343531370162964,
+          "batch_score": 0.25343531370162964,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 19.86656000080984,
+          "batch_mean_ms": 16.58894000283908,
+          "speedup_percent": 16.498175818245087
+        },
+        "experience": {
+          "separate_mean_ms": 23.2462799991481,
+          "batch_mean_ms": 19.240340002579615,
+          "speedup_percent": 17.232606665304257
+        }
+      },
+      "separate_final_score": 0.4040161669254303,
+      "batch_final_score": 0.4040161669254303,
+      "final_score_absolute_difference": 0.0
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_004_data_analyst",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.8667070865631104,
+          "batch_score": 0.8667071461677551,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.4605250954627991,
+          "batch_score": 0.4605250954627991,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 19.353220000630245,
+          "batch_mean_ms": 16.68822000210639,
+          "speedup_percent": 13.770318316213359
+        },
+        "experience": {
+          "separate_mean_ms": 20.68621999642346,
+          "batch_mean_ms": 21.26573999703396,
+          "speedup_percent": -2.8014784755779285
+        }
+      },
+      "separate_final_score": 0.7143888399004936,
+      "batch_final_score": 0.7143888771533966,
+      "final_score_absolute_difference": 3.725290298461914e-08
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_005_hr_executive",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.49809154868125916,
+          "batch_score": 0.49809151887893677,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "experience": {
+          "separate_score": 0.19053760170936584,
+          "batch_score": 0.19053754210472107,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 17.914200003724545,
+          "batch_mean_ms": 11.900760003481992,
+          "speedup_percent": 33.568007496803084
+        },
+        "experience": {
+          "separate_mean_ms": 21.098720002919436,
+          "batch_mean_ms": 19.60069999913685,
+          "speedup_percent": 7.10005158405488
+        }
+      },
+      "separate_final_score": 0.38275881856679916,
+      "batch_final_score": 0.3827587775886059,
+      "final_score_absolute_difference": 4.0978193283081055e-08
+    },
+    {
+      "resume_id": "resume_002",
+      "jd_id": "jd_006_business_analyst",
+      "available_components": [
+        "skills",
+        "experience"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.7186093926429749,
+          "batch_score": 0.7186092138290405,
+          "absolute_score_difference": 1.7881393432617188e-07
+        },
+        "experience": {
+          "separate_score": 0.3522449731826782,
+          "batch_score": 0.35224491357803345,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 15.53942000027746,
+          "batch_mean_ms": 11.508040002081543,
+          "speedup_percent": 25.942924498623082
+        },
+        "experience": {
+          "separate_mean_ms": 21.15782000182662,
+          "batch_mean_ms": 20.33919999958016,
+          "speedup_percent": 3.8691131797878406
+        }
+      },
+      "separate_final_score": 0.5812227353453636,
+      "batch_final_score": 0.5812226012349129,
+      "final_score_absolute_difference": 1.341104507446289e-07
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_001_data_scientist",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.8922793865203857,
+          "batch_score": 0.8922794461250305,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.41690191626548767,
+          "batch_score": 0.41690200567245483,
+          "absolute_score_difference": 8.940696716308594e-08
+        },
+        "projects": {
+          "separate_score": 0.3255133628845215,
+          "batch_score": 0.3255133330821991,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 20.58732000296004,
+          "batch_mean_ms": 18.482220004079863,
+          "speedup_percent": 10.22522600599547
+        },
+        "experience": {
+          "separate_mean_ms": 21.315200001117773,
+          "batch_mean_ms": 22.519779999856837,
+          "speedup_percent": -5.651272325269739
+        },
+        "projects": {
+          "separate_mean_ms": 48.79688000364695,
+          "batch_mean_ms": 57.12020000210032,
+          "speedup_percent": -17.0570741363614
+        }
+      },
+      "separate_final_score": 0.6363129407167435,
+      "batch_final_score": 0.6363129913806915,
+      "final_score_absolute_difference": 5.066394803687757e-08
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_002_software_engineer",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.4938091039657593,
+          "batch_score": 0.4938090443611145,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.3250963091850281,
+          "batch_score": 0.32509633898735046,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.17256850004196167,
+          "batch_score": 0.17256850004196167,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 20.19272000179626,
+          "batch_mean_ms": 17.47580000665039,
+          "speedup_percent": 13.454948094680589
+        },
+        "experience": {
+          "separate_mean_ms": 23.537559996475466,
+          "batch_mean_ms": 23.62161999626551,
+          "speedup_percent": -0.35713132458347363
+        },
+        "projects": {
+          "separate_mean_ms": 45.5762399971718,
+          "batch_mean_ms": 51.50108000088949,
+          "speedup_percent": -12.999843787213146
+        }
+      },
+      "separate_final_score": 0.3789471447467804,
+      "batch_final_score": 0.3789471238851547,
+      "final_score_absolute_difference": 2.0861625649182258e-08
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_003_ml_engineer",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.8478225469589233,
+          "batch_score": 0.8478227257728577,
+          "absolute_score_difference": 1.7881393432617188e-07
+        },
+        "experience": {
+          "separate_score": 0.4972515404224396,
+          "batch_score": 0.4972515404224396,
+          "absolute_score_difference": 0.0
+        },
+        "projects": {
+          "separate_score": 0.2654496431350708,
+          "batch_score": 0.265449583530426,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 20.712520001688972,
+          "batch_mean_ms": 17.793380000512116,
+          "speedup_percent": 14.093601362551825
+        },
+        "experience": {
+          "separate_mean_ms": 23.873080001794733,
+          "batch_mean_ms": 24.43984000128694,
+          "speedup_percent": -2.3740547907919622
+        },
+        "projects": {
+          "separate_mean_ms": 51.71064000169281,
+          "batch_mean_ms": 54.949860004126094,
+          "speedup_percent": -6.264126691000625
+        }
+      },
+      "separate_final_score": 0.6261766642332076,
+      "batch_final_score": 0.6261767417192459,
+      "final_score_absolute_difference": 7.748603825241673e-08
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_004_data_analyst",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.7325517535209656,
+          "batch_score": 0.7325518131256104,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.38069406151771545,
+          "batch_score": 0.38069409132003784,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.26361119747161865,
+          "batch_score": 0.26361122727394104,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 20.874200001708232,
+          "batch_mean_ms": 16.2179000035394,
+          "speedup_percent": 22.30648359116894
+        },
+        "experience": {
+          "separate_mean_ms": 20.812759999535047,
+          "batch_mean_ms": 22.85316000052262,
+          "speedup_percent": -9.803601257272735
+        },
+        "projects": {
+          "separate_mean_ms": 47.000160001334734,
+          "batch_mean_ms": 50.20081999537069,
+          "speedup_percent": -6.8098916981241455
+        }
+      },
+      "separate_final_score": 0.5332063347101211,
+      "batch_final_score": 0.5332063794136047,
+      "final_score_absolute_difference": 4.470348358154297e-08
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_005_hr_executive",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.33610424399375916,
+          "batch_score": 0.33610424399375916,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.19892896711826324,
+          "batch_score": 0.19892899692058563,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.07915365695953369,
+          "batch_score": 0.0791536420583725,
+          "absolute_score_difference": 1.4901161193847656e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 17.150940001010895,
+          "batch_mean_ms": 15.42650000192225,
+          "speedup_percent": 10.054492634147193
+        },
+        "experience": {
+          "separate_mean_ms": 23.31805999565404,
+          "batch_mean_ms": 22.167880000779405,
+          "speedup_percent": 4.9325715565059935
+        },
+        "projects": {
+          "separate_mean_ms": 49.05647999839857,
+          "batch_mean_ms": 53.09218000329565,
+          "speedup_percent": -8.226639997465828
+        }
+      },
+      "separate_final_score": 0.2435615435242653,
+      "batch_final_score": 0.24356154948472974,
+      "final_score_absolute_difference": 5.960464455334602e-09
+    },
+    {
+      "resume_id": "resume_003",
+      "jd_id": "jd_006_business_analyst",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.3273286819458008,
+          "batch_score": 0.327328622341156,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.20434793829917908,
+          "batch_score": 0.20434796810150146,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.20693904161453247,
+          "batch_score": 0.20693902671337128,
+          "absolute_score_difference": 1.4901161193847656e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.78629999991972,
+          "batch_mean_ms": 16.67285999574233,
+          "speedup_percent": 11.249900215510362
+        },
+        "experience": {
+          "separate_mean_ms": 20.92279999924358,
+          "batch_mean_ms": 20.632279996061698,
+          "speedup_percent": 1.3885330987840316
+        },
+        "projects": {
+          "separate_mean_ms": 44.51919999846723,
+          "batch_mean_ms": 57.72972000413574,
+          "speedup_percent": -29.673758751557404
+        }
+      },
+      "separate_final_score": 0.2663565307855606,
+      "batch_final_score": 0.2663565069437027,
+      "final_score_absolute_difference": 2.384185787684956e-08
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_001_data_scientist",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.5589964389801025,
+          "batch_score": 0.5589964389801025,
+          "absolute_score_difference": 0.0
+        },
+        "experience": {
+          "separate_score": 0.334987074136734,
+          "batch_score": 0.3349870443344116,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.2515539526939392,
+          "batch_score": 0.2515539526939392,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 20.634079998126253,
+          "batch_mean_ms": 18.36221999838017,
+          "speedup_percent": 11.010231616589584
+        },
+        "experience": {
+          "separate_mean_ms": 20.165440000710078,
+          "batch_mean_ms": 20.306320002418943,
+          "speedup_percent": -0.6986210154794759
+        },
+        "projects": {
+          "separate_mean_ms": 46.5511799993692,
+          "batch_mean_ms": 52.55854000279214,
+          "speedup_percent": -12.904850110146187
+        }
+      },
+      "separate_final_score": 0.43030513226985934,
+      "batch_final_score": 0.4303051233291626,
+      "final_score_absolute_difference": 8.940696738513054e-09
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_002_software_engineer",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.6052642464637756,
+          "batch_score": 0.6052641868591309,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "experience": {
+          "separate_score": 0.2286151647567749,
+          "batch_score": 0.2286151945590973,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.1455300748348236,
+          "batch_score": 0.14553001523017883,
+          "absolute_score_difference": 5.960464477539063e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 17.768739999155514,
+          "batch_mean_ms": 13.685179996537045,
+          "speedup_percent": 22.981708341798836
+        },
+        "experience": {
+          "separate_mean_ms": 21.707880002213642,
+          "batch_mean_ms": 19.78607999626547,
+          "speedup_percent": 8.853006400220552
+        },
+        "projects": {
+          "separate_mean_ms": 46.10250000259839,
+          "batch_mean_ms": 56.50544000091031,
+          "speedup_percent": -22.56480667583233
+        }
+      },
+      "separate_final_score": 0.400322687625885,
+      "batch_final_score": 0.4003226548433304,
+      "final_score_absolute_difference": 3.2782554615362614e-08
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_003_ml_engineer",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.4707086384296417,
+          "batch_score": 0.4707086682319641,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "experience": {
+          "separate_score": 0.25351768732070923,
+          "batch_score": 0.253517746925354,
+          "absolute_score_difference": 5.960464477539063e-08
+        },
+        "projects": {
+          "separate_score": 0.09873338043689728,
+          "batch_score": 0.09873335063457489,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 19.64379999844823,
+          "batch_mean_ms": 16.535399996791966,
+          "speedup_percent": 15.823822284394126
+        },
+        "experience": {
+          "separate_mean_ms": 21.27747999620624,
+          "batch_mean_ms": 20.232220005709678,
+          "speedup_percent": 4.9125177919703376
+        },
+        "projects": {
+          "separate_mean_ms": 54.01480000291485,
+          "batch_mean_ms": 58.74691999924835,
+          "speedup_percent": -8.760784074139181
+        }
+      },
+      "separate_final_score": 0.3311563014984131,
+      "batch_final_score": 0.33115632832050323,
+      "final_score_absolute_difference": 2.682209016002801e-08
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_004_data_analyst",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.811078667640686,
+          "batch_score": 0.8110787868499756,
+          "absolute_score_difference": 1.1920928955078125e-07
+        },
+        "experience": {
+          "separate_score": 0.42237287759780884,
+          "batch_score": 0.4223729074001312,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.4841904044151306,
+          "batch_score": 0.4841904044151306,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 21.36444000643678,
+          "batch_mean_ms": 15.83095999667421,
+          "speedup_percent": 25.900421485868186
+        },
+        "experience": {
+          "separate_mean_ms": 23.40767999412492,
+          "batch_mean_ms": 21.549940001568757,
+          "speedup_percent": 7.936455014005811
+        },
+        "projects": {
+          "separate_mean_ms": 50.924599994323216,
+          "batch_mean_ms": 56.32593999616802,
+          "speedup_percent": -10.606543796999704
+        }
+      },
+      "separate_final_score": 0.6290892779827119,
+      "batch_final_score": 0.6290893465280533,
+      "final_score_absolute_difference": 6.854534140288138e-08
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_005_hr_executive",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.44082796573638916,
+          "batch_score": 0.44082799553871155,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "experience": {
+          "separate_score": 0.2140912264585495,
+          "batch_score": 0.21409115195274353,
+          "absolute_score_difference": 7.450580596923828e-08
+        },
+        "projects": {
+          "separate_score": 0.16126945614814758,
+          "batch_score": 0.16126945614814758,
+          "absolute_score_difference": 0.0
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.51281999843195,
+          "batch_mean_ms": 12.168840001686476,
+          "speedup_percent": 34.268036945656114
+        },
+        "experience": {
+          "separate_mean_ms": 22.60332000150811,
+          "batch_mean_ms": 20.4754199978197,
+          "speedup_percent": 9.414103784516765
+        },
+        "projects": {
+          "separate_mean_ms": 46.67671999777667,
+          "batch_mean_ms": 52.50465999706648,
+          "speedup_percent": -12.485753068269172
+        }
+      },
+      "separate_final_score": 0.31689524203538894,
+      "batch_final_score": 0.31689523458480834,
+      "final_score_absolute_difference": 7.450580596923828e-09
+    },
+    {
+      "resume_id": "resume_004",
+      "jd_id": "jd_006_business_analyst",
+      "available_components": [
+        "skills",
+        "experience",
+        "projects"
+      ],
+      "component_results": {
+        "skills": {
+          "separate_score": 0.676676869392395,
+          "batch_score": 0.6766766309738159,
+          "absolute_score_difference": 2.384185791015625e-07
+        },
+        "experience": {
+          "separate_score": 0.3912360966205597,
+          "batch_score": 0.3912361264228821,
+          "absolute_score_difference": 2.9802322387695312e-08
+        },
+        "projects": {
+          "separate_score": 0.3175329864025116,
+          "batch_score": 0.317533016204834,
+          "absolute_score_difference": 2.9802322387695312e-08
+        }
+      },
+      "component_timings": {
+        "skills": {
+          "separate_mean_ms": 18.201000001863576,
+          "batch_mean_ms": 12.51983999973163,
+          "speedup_percent": 31.21344981896742
+        },
+        "experience": {
+          "separate_mean_ms": 22.988519998034462,
+          "batch_mean_ms": 21.287980003398843,
+          "speedup_percent": 7.397344390943901
+        },
+        "projects": {
+          "separate_mean_ms": 48.04178000194952,
+          "batch_mean_ms": 51.11544000101276,
+          "speedup_percent": -6.3978895014683275
+        }
+      },
+      "separate_final_score": 0.5192158609628678,
+      "batch_final_score": 0.5192157566547394,
+      "final_score_absolute_difference": 1.043081283569336e-07
+    }
+  ]
+}

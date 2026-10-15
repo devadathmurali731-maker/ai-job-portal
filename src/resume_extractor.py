@@ -6,23 +6,22 @@ from pypdf import PdfReader
 
 
 def extract_docx(file_path):
+    """Extract text from DOCX paragraphs and tables."""
     document = Document(file_path)
-
     text = []
 
-    # Extract normal paragraphs
+    # Extract normal paragraphs.
     for paragraph in document.paragraphs:
         if paragraph.text.strip():
             text.append(paragraph.text.strip())
 
-    # Extract tables
+    # Extract tables.
     for table in document.tables:
         for row in table.rows:
             row_data = []
 
             for cell in row.cells:
                 cell_text = cell.text.strip()
-
                 if cell_text:
                     row_data.append(cell_text)
 
@@ -31,9 +30,10 @@ def extract_docx(file_path):
 
     return "\n".join(text)
 
-def extract_pdf(file_path):
-    reader = PdfReader(file_path)
 
+def extract_pdf(file_path):
+    """Extract text from PDF pages."""
+    reader = PdfReader(file_path)
     text = []
 
     for page in reader.pages:
@@ -44,7 +44,9 @@ def extract_pdf(file_path):
 
     return "\n".join(text)
 
+
 def extract_text(file_path):
+    """Extract text from a supported resume file."""
     file_path = Path(file_path)
 
     if file_path.suffix.lower() == ".docx":
@@ -58,36 +60,41 @@ def extract_text(file_path):
             f"Unsupported file format: {file_path.suffix}"
         )
 
+
 def clean_text(text):
-    # Replace multiple spaces/tabs with a single space
+    """Remove excess spaces and empty lines."""
     text = re.sub(r"[ \t]+", " ", text)
 
-    # Remove spaces at the beginning and end of each line
     lines = [line.strip() for line in text.splitlines()]
-
-    # Remove empty lines
     lines = [line for line in lines if line]
 
-    # Join the cleaned lines
     return "\n".join(lines)
 
+
 def normalize_bullets(text):
-    """
-    Convert different bullet symbols into a standard hyphen.
-    """
+    """Convert common bullet symbols and dash bullets into hyphens."""
 
-    # Replace common bullet symbols with a hyphen
-    text = re.sub(r"^[•▪◦●*]\s*", "- ", text, flags=re.MULTILINE)
+    # Normalize common bullet symbols, including the white circle.
+    text = re.sub(
+        r"^[\u2022\u25AA\u25E6\u25CB\u25CF*]\s*",
+        "- ",
+        text,
+        flags=re.MULTILINE
+    )
 
-    # Replace lines beginning with Unicode dash/bullet variations
-    text = re.sub(r"^[–—]\s*", "- ", text, flags=re.MULTILINE)
+    # Normalize lines beginning with en dashes or em dashes.
+    text = re.sub(
+        r"^[\u2013\u2014]\s*",
+        "- ",
+        text,
+        flags=re.MULTILINE
+    )
 
     return text
 
+
 def normalize_section_headings(text):
-    """
-    Normalize common resume section headings.
-    """
+    """Normalize common resume section headings."""
 
     section_headings = {
         "PROFILE": "PROFESSIONAL SUMMARY",
@@ -108,7 +115,6 @@ def normalize_section_headings(text):
 
     for line in text.splitlines():
         cleaned_line = line.strip()
-
         heading = section_headings.get(cleaned_line.upper())
 
         if heading:
@@ -118,18 +124,21 @@ def normalize_section_headings(text):
 
     return "\n".join(lines)
 
-def normalize_special_characters(text):
-    """
-    Normalize common Unicode characters used in resumes.
-    """
 
-    # Replace non-breaking spaces
+def normalize_special_characters(text):
+    """Normalize common Unicode characters used in resumes."""
+
+    # Replace non-breaking spaces.
     text = text.replace("\u00a0", " ")
 
-    # Normalize different dash characters
-    text = re.sub(r"[\u2010\u2011\u2012\u2013\u2014\u2015\u2212]", "-", text)
+    # Normalize different dash characters.
+    text = re.sub(
+        r"[\u2010\u2011\u2012\u2013\u2014\u2015\u2212]",
+        "-",
+        text
+    )
 
-    # Normalize curly quotes
+    # Normalize curly quotation marks.
     text = text.replace("“", '"')
     text = text.replace("”", '"')
     text = text.replace("‘", "'")
