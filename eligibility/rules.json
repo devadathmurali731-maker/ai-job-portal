@@ -1,0 +1,157 @@
+{
+  "default_thresholds": {
+    "eligible_min_score": 70,
+    "review_min_score": 50
+  },
+  "roles": {
+    "Data Scientist": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Statistics",
+        "Data Analysis"
+      ],
+      "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [
+          "Bangalore, India"
+        ],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    },
+    "Software Engineer": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "Python",
+        "SQL",
+        "Git"
+      ],
+      "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    },
+    "Machine Learning Engineer": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Git"
+      ],
+      "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    },
+    "Data Analyst": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "SQL",
+        "Power BI",
+        "Microsoft Excel",
+        "Data Analysis",
+        "Data Visualization"
+      ],
+      "experience": {
+        "minimum_years": 1,
+        "maximum_years": 3
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    },
+    "HR Executive": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "Microsoft Excel",
+        "Communication",
+        "Recruitment",
+        "Talent Acquisition"
+      ],
+      "experience": {
+        "minimum_years": 2,
+        "maximum_years": 4
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    },
+    "Business Analyst": {
+      "eligible_min_score": 70,
+      "review_min_score": 50,
+      "mandatory_skills": [
+        "SQL",
+        "Power BI",
+        "Microsoft Excel",
+        "Communication"
+      ],
+      "experience": {
+        "minimum_years": 2,
+        "maximum_years": 5
+      },
+      "location": {
+        "required": false,
+        "allowed_locations": [],
+        "review_if_unknown": true
+      },
+      "availability": {
+        "required": false,
+        "review_if_unknown": true
+      }
+    }
+  }
+}

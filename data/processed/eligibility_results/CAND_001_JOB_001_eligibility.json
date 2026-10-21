@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND_001",
+  "job_id": "JOB_001",
+  "role": "Data Scientist",
+  "eligibility_status": "Rejected",
+  "ats_score": 45.51,
+  "passed_checks": [
+    "Experience is within the configured range."
+  ],
+  "failed_checks": [
+    "ATS score 45.51 is below the review threshold.",
+    "Missing mandatory skills: Machine Learning, Scikit-learn, Pandas, NumPy, Statistics, Data Analysis"
+  ],
+  "review_checks": [
+    "Candidate location is unknown; confirm location requirements.",
+    "Candidate availability is unknown; confirm before screening."
+  ],
+  "reasons": [
+    "ATS score 45.51 is below the review threshold.",
+    "Missing mandatory skills: Machine Learning, Scikit-learn, Pandas, NumPy, Statistics, Data Analysis",
+    "Candidate location is unknown; confirm location requirements.",
+    "Candidate availability is unknown; confirm before screening."
+  ],
+  "decision_timestamp": "2026-10-21T05:51:25.223507+00:00",
+  "engine_version": "1.0.0"
+}
