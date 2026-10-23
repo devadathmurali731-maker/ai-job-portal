@@ -1,0 +1,56 @@
+{
+  "mapping_version": "1.0.0",
+  "categories": {
+    "introduction": {
+      "label": "Introduction",
+      "description": "Candidate introduction and job motivation.",
+      "default_scoring_importance": "low"
+    },
+    "education": {
+      "label": "Education",
+      "description": "Qualifications relevant to the role.",
+      "default_scoring_importance": "medium"
+    },
+    "experience": {
+      "label": "Experience",
+      "description": "Relevant work history and responsibilities.",
+      "default_scoring_importance": "high"
+    },
+    "skills": {
+      "label": "Skills",
+      "description": "Role-related skills and practical experience.",
+      "default_scoring_importance": "high"
+    },
+    "location": {
+      "label": "Location",
+      "description": "Work location, relocation, and work arrangement.",
+      "default_scoring_importance": "low"
+    },
+    "salary": {
+      "label": "Salary",
+      "description": "Compensation expectations and alignment.",
+      "default_scoring_importance": "low"
+    },
+    "notice_period": {
+      "label": "Notice period",
+      "description": "Availability and potential joining date.",
+      "default_scoring_importance": "low"
+    }
+  },
+  "answer_types": [
+    "text",
+    "single_line_text",
+    "number",
+    "yes_no_with_details",
+    "multi_select_with_details",
+    "single_choice_with_details",
+    "number_with_currency",
+    "date_or_text"
+  ],
+  "scoring_importance_levels": {
+    "low": 1,
+    "medium": 2,
+    "high": 3
+  },
+  "note": "Mandatory information does not automatically mean the answer should affect candidate quality scoring."
+}

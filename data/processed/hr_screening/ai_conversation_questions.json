@@ -1,0 +1,1092 @@
+{
+  "dataset_name": "AI Screening Conversation Questions",
+  "dataset_version": "1.0.0",
+  "language_default": "en",
+  "conversation_flow": [
+    "introduction",
+    "education",
+    "experience",
+    "skills",
+    "location",
+    "salary",
+    "notice_period"
+  ],
+  "questions": [
+    {
+      "question_id": "INTRO_001",
+      "category": "introduction",
+      "question_template": "Could you briefly introduce yourself and describe your professional background?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Could you briefly introduce yourself and describe your professional background?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "INTRO_002",
+      "category": "introduction",
+      "question_template": "What interests you about the {role} position?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "role"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What interests you about the {role} position?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "INTRO_003",
+      "category": "introduction",
+      "question_template": "What are you looking for in your next role?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What are you looking for in your next role?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "INTRO_004",
+      "category": "introduction",
+      "question_template": "Which of your strengths are most relevant to this position?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Which of your strengths are most relevant to this position?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EDU_001",
+      "category": "education",
+      "question_template": "What is your highest completed qualification?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_line_text",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What is your highest completed qualification?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EDU_002",
+      "category": "education",
+      "question_template": "What was your field of study?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_line_text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What was your field of study?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EDU_003",
+      "category": "education",
+      "question_template": "Do you hold any certifications relevant to this role? Please describe them.",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Do you hold any certifications relevant to this role? Please describe them.",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EDU_004",
+      "category": "education",
+      "question_template": "Are you currently pursuing any additional qualifications?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Are you currently pursuing any additional qualifications?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EXP_001",
+      "category": "experience",
+      "question_template": "How many years of relevant professional experience do you have?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "number",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "high",
+        "weight": 3,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "How many years of relevant professional experience do you have?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EXP_002",
+      "category": "experience",
+      "question_template": "Please describe your most relevant previous role and responsibilities.",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "high",
+        "weight": 3,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Please describe your most relevant previous role and responsibilities.",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EXP_003",
+      "category": "experience",
+      "question_template": "Describe a project or achievement relevant to this position.",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "high",
+        "weight": 3,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Describe a project or achievement relevant to this position.",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "EXP_004",
+      "category": "experience",
+      "question_template": "Have you worked in a similar role before?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Have you worked in a similar role before?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SKILL_001",
+      "category": "skills",
+      "question_template": "Which of the following job-related skills have you used professionally: {required_skills}?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "multi_select_with_details",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "high",
+        "weight": 3,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "required_skills"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Which of the following job-related skills have you used professionally: {required_skills}?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SKILL_002",
+      "category": "skills",
+      "question_template": "How have you applied {key_skill} in a project or at work?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "high",
+        "weight": 3,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "key_skill"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "How have you applied {key_skill} in a project or at work?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SKILL_003",
+      "category": "skills",
+      "question_template": "Which tools or technologies do you use most confidently for this role?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Which tools or technologies do you use most confidently for this role?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SKILL_004",
+      "category": "skills",
+      "question_template": "Would you be comfortable completing a role-relevant technical or practical assessment?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "medium",
+        "weight": 2,
+        "use_for_candidate_quality_score": true
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Would you be comfortable completing a role-relevant technical or practical assessment?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "LOC_001",
+      "category": "location",
+      "question_template": "What city or region are you currently based in?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_line_text",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What city or region are you currently based in?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "LOC_002",
+      "category": "location",
+      "question_template": "Are you able to work from {work_location} under the advertised work arrangement?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "work_location"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Are you able to work from {work_location} under the advertised work arrangement?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "LOC_003",
+      "category": "location",
+      "question_template": "Would you be willing to relocate if the role requires it?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Would you be willing to relocate if the role requires it?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "LOC_004",
+      "category": "location",
+      "question_template": "Do you require any specific work arrangement, such as remote, hybrid, or on-site?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_choice_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Do you require any specific work arrangement, such as remote, hybrid, or on-site?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SAL_001",
+      "category": "salary",
+      "question_template": "What is your expected annual compensation in {currency}?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "number_with_currency",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "currency"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What is your expected annual compensation in {currency}?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SAL_002",
+      "category": "salary",
+      "question_template": "What is your preferred compensation structure, if any?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_choice_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What is your preferred compensation structure, if any?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SAL_003",
+      "category": "salary",
+      "question_template": "Is your expected compensation negotiable depending on the role and overall package?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Is your expected compensation negotiable depending on the role and overall package?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "SAL_004",
+      "category": "salary",
+      "question_template": "Would you like to share any additional compensation expectations?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "text",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Would you like to share any additional compensation expectations?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "NOTICE_001",
+      "category": "notice_period",
+      "question_template": "What is your current notice period, if applicable?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "single_choice_with_details",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What is your current notice period, if applicable?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "NOTICE_002",
+      "category": "notice_period",
+      "question_template": "What is the earliest date you could join?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "date_or_text",
+        "required": true,
+        "allow_unknown": false
+      },
+      "mandatory": true,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "What is the earliest date you could join?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": false,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "NOTICE_003",
+      "category": "notice_period",
+      "question_template": "Would you be able to join by {target_joining_date}?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [
+        "target_joining_date"
+      ],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Would you be able to join by {target_joining_date}?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    },
+    {
+      "question_id": "NOTICE_004",
+      "category": "notice_period",
+      "question_template": "Would you need to serve a notice period or complete other commitments before joining?",
+      "applicable_roles": [
+        "Data Scientist",
+        "Software Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "HR Executive",
+        "Business Analyst"
+      ],
+      "expected_answer": {
+        "type": "yes_no_with_details",
+        "required": false,
+        "allow_unknown": true
+      },
+      "mandatory": false,
+      "scoring": {
+        "importance": "low",
+        "weight": 1,
+        "use_for_candidate_quality_score": false
+      },
+      "language": {
+        "default": "en",
+        "translations": {},
+        "translation_status": "english_source_only"
+      },
+      "template_variables": [],
+      "response_validation": {},
+      "active": true,
+      "conversation": {
+        "prompt": "Would you need to serve a notice period or complete other commitments before joining?",
+        "reprompt_if_empty": "Would you like to provide an answer, or skip this question if it is optional?",
+        "allow_skip": true,
+        "capture_structured_answer": true
+      }
+    }
+  ]
+}
