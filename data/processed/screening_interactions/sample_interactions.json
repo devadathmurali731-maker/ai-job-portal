@@ -1,0 +1,35 @@
+
+[
+  {
+    "interaction_id": "INT-001",
+    "session_id": "SES-001",
+    "candidate_id": "CAN-001",
+    "job_id": "JOB-001",
+    "question_id": "Q-001",
+    "asked_at": "2026-10-26T06:29:00Z",
+    "answered_at": "2026-10-26T06:30:00Z",
+    "status": "answered",
+    "answer_text": "I have three years of experience working with Python and SQL.",
+    "transcript_id": "TR-001",
+    "language": "en",
+    "speech_confidence": 0.96,
+    "duration_seconds": 3.8,
+    "normalization_version": "1.0"
+  },
+  {
+    "interaction_id": "INT-002",
+    "session_id": "SES-002",
+    "candidate_id": "CAN-002",
+    "job_id": "JOB-001",
+    "question_id": "Q-002",
+    "asked_at": "2026-10-26T06:34:00Z",
+    "answered_at": "2026-10-26T06:35:00Z",
+    "status": "answered",
+    "answer_text": "I built dashboards using Power BI.",
+    "transcript_id": "TR-002",
+    "language": "en",
+    "speech_confidence": 0.92,
+    "duration_seconds": 2.5,
+    "normalization_version": "1.0"
+  }
+]

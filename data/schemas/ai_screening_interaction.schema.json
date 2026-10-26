@@ -1,0 +1,109 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Screening Interaction Schema",
+  "description": "Structured record for a single question-and-answer interaction in an AI HR screening session.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interaction_id",
+    "session_id",
+    "candidate_id",
+    "job_id",
+    "question_id",
+    "asked_at",
+    "status"
+  ],
+  "properties": {
+    "interaction_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Groups interactions from one screening session."
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "job_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asked_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC ISO 8601 timestamp when the question was asked."
+    },
+    "answered_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time",
+      "description": "UTC ISO 8601 timestamp when the answer was received, or null."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "asked",
+        "answered",
+        "skipped",
+        "no_response",
+        "transcription_failed"
+      ]
+    },
+    "answer_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Normalized candidate answer, or null if no answer was captured."
+    },
+    "transcript_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Reference to the associated voice transcript record."
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "BCP 47 language tag, such as en or ml-IN."
+    },
+    "speech_confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Speech recognition confidence, not candidate quality."
+    },
+    "duration_seconds": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "normalization_version": {
+      "type": "string",
+      "default": "1.0"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional additional non-sensitive interaction metadata.",
+      "additionalProperties": true
+    }
+  }
+}
