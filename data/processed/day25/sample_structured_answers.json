@@ -1,0 +1,232 @@
+[
+    {
+        "answer_id": "A001",
+        "question_id": "Q001",
+        "question_type": "skills",
+        "original_text": "I have strong skills in Python, SQL and Power BI.",
+        "intent": {
+            "intent": "skills",
+            "confidence": 1.0,
+            "matched_keywords": [
+                "skills",
+                "python",
+                "sql"
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Python",
+                "SQL",
+                "Power BI"
+            ],
+            "experience": {
+                "value": null,
+                "unit": null
+            },
+            "availability": {
+                "type": null,
+                "value": null,
+                "unit": null
+            },
+            "salary_expectation": {
+                "amount": null,
+                "currency": null,
+                "period": null
+            }
+        },
+        "is_off_topic": false,
+        "off_topic_reason": "Answer contains relevant information",
+        "answer_status": "complete",
+        "is_vague": false,
+        "missing_fields": [],
+        "validation_reason": "Answer contains recognizable information"
+    },
+    {
+        "answer_id": "A002",
+        "question_id": "Q002",
+        "question_type": "experience",
+        "original_text": "I have 3 years of experience in data analysis.",
+        "intent": {
+            "intent": "experience",
+            "confidence": 0.67,
+            "matched_keywords": [
+                "experience",
+                "years"
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Data Analysis"
+            ],
+            "experience": {
+                "value": 3.0,
+                "unit": "years"
+            },
+            "availability": {
+                "type": null,
+                "value": null,
+                "unit": null
+            },
+            "salary_expectation": {
+                "amount": null,
+                "currency": null,
+                "period": null
+            }
+        },
+        "is_off_topic": false,
+        "off_topic_reason": "Answer contains relevant information",
+        "answer_status": "complete",
+        "is_vague": false,
+        "missing_fields": [],
+        "validation_reason": "Answer contains recognizable information"
+    },
+    {
+        "answer_id": "A003",
+        "question_id": "Q003",
+        "question_type": "availability",
+        "original_text": "I can join immediately.",
+        "intent": {
+            "intent": "availability",
+            "confidence": 1.0,
+            "matched_keywords": [
+                "immediately",
+                "join"
+            ]
+        },
+        "entities": {
+            "skills": [],
+            "experience": {
+                "value": null,
+                "unit": null
+            },
+            "availability": {
+                "type": "immediate",
+                "value": 0,
+                "unit": "days"
+            },
+            "salary_expectation": {
+                "amount": null,
+                "currency": null,
+                "period": null
+            }
+        },
+        "is_off_topic": false,
+        "off_topic_reason": "Answer contains relevant information",
+        "answer_status": "complete",
+        "is_vague": false,
+        "missing_fields": [],
+        "validation_reason": "Answer contains recognizable information"
+    },
+    {
+        "answer_id": "A004",
+        "question_id": "Q004",
+        "question_type": "salary",
+        "original_text": "My expected salary is 6 LPA.",
+        "intent": {
+            "intent": "salary_expectation",
+            "confidence": 1.0,
+            "matched_keywords": [
+                "salary",
+                "expected",
+                "lpa"
+            ]
+        },
+        "entities": {
+            "skills": [],
+            "experience": {
+                "value": null,
+                "unit": null
+            },
+            "availability": {
+                "type": null,
+                "value": null,
+                "unit": null
+            },
+            "salary_expectation": {
+                "amount": 600000,
+                "currency": "INR",
+                "period": "year"
+            }
+        },
+        "is_off_topic": false,
+        "off_topic_reason": "Answer contains relevant information",
+        "answer_status": "complete",
+        "is_vague": false,
+        "missing_fields": [],
+        "validation_reason": "Answer contains recognizable information"
+    },
+    {
+        "answer_id": "A005",
+        "question_id": "Q005",
+        "question_type": "skills",
+        "original_text": "I don't know.",
+        "intent": {
+            "intent": "general",
+            "confidence": 0.0,
+            "matched_keywords": []
+        },
+        "entities": {
+            "skills": [],
+            "experience": {
+                "value": null,
+                "unit": null
+            },
+            "availability": {
+                "type": null,
+                "value": null,
+                "unit": null
+            },
+            "salary_expectation": {
+                "amount": null,
+                "currency": null,
+                "period": null
+            }
+        },
+        "is_off_topic": true,
+        "off_topic_reason": "Answer does not contain recognizable information for the expected category",
+        "answer_status": "vague",
+        "is_vague": true,
+        "missing_fields": [],
+        "validation_reason": "Answer contains vague or uncertain wording"
+    },
+    {
+        "answer_id": "A006",
+        "question_id": "Q006",
+        "question_type": "skills",
+        "original_text": "My expected salary is 6 LPA.",
+        "intent": {
+            "intent": "salary_expectation",
+            "confidence": 1.0,
+            "matched_keywords": [
+                "salary",
+                "expected",
+                "lpa"
+            ]
+        },
+        "entities": {
+            "skills": [],
+            "experience": {
+                "value": null,
+                "unit": null
+            },
+            "availability": {
+                "type": null,
+                "value": null,
+                "unit": null
+            },
+            "salary_expectation": {
+                "amount": 600000,
+                "currency": "INR",
+                "period": "year"
+            }
+        },
+        "is_off_topic": true,
+        "off_topic_reason": "Answer does not contain recognizable information for the expected category",
+        "answer_status": "off_topic",
+        "is_vague": true,
+        "missing_fields": [
+            "skills"
+        ],
+        "validation_reason": "No recognizable skills were identified"
+    }
+]
