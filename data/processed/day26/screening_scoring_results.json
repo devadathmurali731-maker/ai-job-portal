@@ -1,0 +1,157 @@
+{
+    "total_questions": 6,
+    "overall_screening_score": 75.0,
+    "performance_level": "Good",
+    "question_breakdown": [
+        {
+            "question_id": "Q001",
+            "answer_id": "A001",
+            "scores": {
+                "clarity": 100,
+                "relevance": 100,
+                "completeness": 100,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 100,
+            "normalized_score": 100,
+            "explanations": {
+                "clarity": "Answer is clearly expressed with sufficient detail.",
+                "relevance": "Answer contains information relevant to the question.",
+                "completeness": "Required information is present.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        },
+        {
+            "question_id": "Q002",
+            "answer_id": "A002",
+            "scores": {
+                "clarity": 100,
+                "relevance": 100,
+                "completeness": 100,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 100,
+            "normalized_score": 100,
+            "explanations": {
+                "clarity": "Answer is clearly expressed with sufficient detail.",
+                "relevance": "Answer contains information relevant to the question.",
+                "completeness": "Required information is present.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        },
+        {
+            "question_id": "Q003",
+            "answer_id": "A003",
+            "scores": {
+                "clarity": 60,
+                "relevance": 100,
+                "completeness": 100,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 90.0,
+            "normalized_score": 90.0,
+            "explanations": {
+                "clarity": "Answer communicates basic information but needs more detail.",
+                "relevance": "Answer contains information relevant to the question.",
+                "completeness": "Required information is present.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        },
+        {
+            "question_id": "Q004",
+            "answer_id": "A004",
+            "scores": {
+                "clarity": 60,
+                "relevance": 100,
+                "completeness": 100,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 90.0,
+            "normalized_score": 90.0,
+            "explanations": {
+                "clarity": "Answer communicates basic information but needs more detail.",
+                "relevance": "Answer contains information relevant to the question.",
+                "completeness": "Required information is present.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        },
+        {
+            "question_id": "Q005",
+            "answer_id": "A005",
+            "scores": {
+                "clarity": 60,
+                "relevance": 0,
+                "completeness": 0,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 35.0,
+            "normalized_score": 35.0,
+            "explanations": {
+                "clarity": "Answer communicates basic information but needs more detail.",
+                "relevance": "Answer does not match the expected question category.",
+                "completeness": "Off-topic answer does not provide the required information.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        },
+        {
+            "question_id": "Q006",
+            "answer_id": "A006",
+            "scores": {
+                "clarity": 60,
+                "relevance": 0,
+                "completeness": 0,
+                "consistency": 100
+            },
+            "weights": {
+                "clarity": 25,
+                "relevance": 30,
+                "completeness": 25,
+                "consistency": 20
+            },
+            "weighted_score": 35.0,
+            "normalized_score": 35.0,
+            "explanations": {
+                "clarity": "Answer communicates basic information but needs more detail.",
+                "relevance": "Answer does not match the expected question category.",
+                "completeness": "Off-topic answer does not provide the required information.",
+                "consistency": "No basic consistency issues were identified."
+            }
+        }
+    ],
+    "parameter_averages": {
+        "clarity": 73.33,
+        "relevance": 66.67,
+        "completeness": 66.67,
+        "consistency": 100
+    }
+}
