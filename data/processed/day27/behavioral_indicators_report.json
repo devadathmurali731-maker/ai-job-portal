@@ -1,0 +1,221 @@
+{
+    "total_answers": 6,
+    "average_confidence_score": 73.84,
+    "average_sentiment_score": 51.67,
+    "communication_strength": "Moderate",
+    "answer_analysis": [
+        {
+            "answer_id": "A001",
+            "question_id": "Q001",
+            "original_text": "I have strong skills in Python, SQL and Power BI.",
+            "confidence_analysis": {
+                "confidence_score": 85,
+                "confidence_level": "High",
+                "hesitation_count": 0,
+                "hesitation_phrases": [],
+                "uncertainty_count": 0,
+                "uncertainty_phrases": [],
+                "response_length": {
+                    "word_count": 10,
+                    "character_count": 49,
+                    "length_category": "Moderate",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 1,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 60,
+                "sentiment_label": "Positive",
+                "positive_word_count": 1,
+                "negative_word_count": 0,
+                "positive_words": [
+                    "strong"
+                ],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        },
+        {
+            "answer_id": "A002",
+            "question_id": "Q002",
+            "original_text": "I have 3 years of experience in data analysis.",
+            "confidence_analysis": {
+                "confidence_score": 80.05,
+                "confidence_level": "High",
+                "hesitation_count": 0,
+                "hesitation_phrases": [],
+                "uncertainty_count": 0,
+                "uncertainty_phrases": [],
+                "response_length": {
+                    "word_count": 9,
+                    "character_count": 46,
+                    "length_category": "Moderate",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 0.67,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 50,
+                "sentiment_label": "Neutral",
+                "positive_word_count": 0,
+                "negative_word_count": 0,
+                "positive_words": [],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        },
+        {
+            "answer_id": "A003",
+            "question_id": "Q003",
+            "original_text": "I can join immediately.",
+            "confidence_analysis": {
+                "confidence_score": 85,
+                "confidence_level": "High",
+                "hesitation_count": 0,
+                "hesitation_phrases": [],
+                "uncertainty_count": 0,
+                "uncertainty_phrases": [],
+                "response_length": {
+                    "word_count": 4,
+                    "character_count": 23,
+                    "length_category": "Very Short",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 1,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 50,
+                "sentiment_label": "Neutral",
+                "positive_word_count": 0,
+                "negative_word_count": 0,
+                "positive_words": [],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        },
+        {
+            "answer_id": "A004",
+            "question_id": "Q004",
+            "original_text": "My expected salary is 6 LPA.",
+            "confidence_analysis": {
+                "confidence_score": 85,
+                "confidence_level": "High",
+                "hesitation_count": 0,
+                "hesitation_phrases": [],
+                "uncertainty_count": 0,
+                "uncertainty_phrases": [],
+                "response_length": {
+                    "word_count": 6,
+                    "character_count": 28,
+                    "length_category": "Moderate",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 1,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 50,
+                "sentiment_label": "Neutral",
+                "positive_word_count": 0,
+                "negative_word_count": 0,
+                "positive_words": [],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        },
+        {
+            "answer_id": "A005",
+            "question_id": "Q005",
+            "original_text": "I don't know.",
+            "confidence_analysis": {
+                "confidence_score": 43,
+                "confidence_level": "Low",
+                "hesitation_count": 1,
+                "hesitation_phrases": [
+                    "i don't know"
+                ],
+                "uncertainty_count": 1,
+                "uncertainty_phrases": [
+                    "i don't know"
+                ],
+                "response_length": {
+                    "word_count": 3,
+                    "character_count": 13,
+                    "length_category": "Very Short",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 0,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 50,
+                "sentiment_label": "Neutral",
+                "positive_word_count": 0,
+                "negative_word_count": 0,
+                "positive_words": [],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        },
+        {
+            "answer_id": "A006",
+            "question_id": "Q006",
+            "original_text": "My expected salary is 6 LPA.",
+            "confidence_analysis": {
+                "confidence_score": 65,
+                "confidence_level": "Moderate",
+                "hesitation_count": 0,
+                "hesitation_phrases": [],
+                "uncertainty_count": 0,
+                "uncertainty_phrases": [],
+                "response_length": {
+                    "word_count": 6,
+                    "character_count": 28,
+                    "length_category": "Moderate",
+                    "duration_seconds": null,
+                    "words_per_minute": null,
+                    "pace_status": "Unavailable: audio duration not provided."
+                },
+                "intent_confidence": 1,
+                "explanation": "Estimated from text-based hesitation, uncertainty, response length, intent confidence, and answer status."
+            },
+            "sentiment_analysis": {
+                "sentiment_score": 50,
+                "sentiment_label": "Neutral",
+                "positive_word_count": 0,
+                "negative_word_count": 0,
+                "positive_words": [],
+                "negative_words": [],
+                "explanation": "Sentiment is estimated using a predefined positive and negative vocabulary."
+            }
+        }
+    ],
+    "behavioral_indicators": {
+        "total_hesitation_instances": 1,
+        "total_uncertainty_instances": 1,
+        "contradiction_analysis": {
+            "contradiction_count": 0,
+            "has_contradictions": false,
+            "contradictions": []
+        }
+    },
+    "limitations": [
+        "Confidence is estimated from text-based indicators, not psychology.",
+        "Sentiment uses predefined vocabulary.",
+        "Speaking pace and vocal hesitation require audio timing or acoustic analysis.",
+        "Different extracted values are potential conflicts, not automatically genuine contradictions."
+    ]
+}
